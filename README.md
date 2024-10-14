@@ -1,0 +1,1 @@
+Application for pridicting apartaments prices using AI model
