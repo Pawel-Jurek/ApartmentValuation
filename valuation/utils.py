@@ -114,4 +114,4 @@ def load_artifacts():
         model_tf = pickle.load(file)
 
 
-load_artifacts()
+# load_artifacts()
