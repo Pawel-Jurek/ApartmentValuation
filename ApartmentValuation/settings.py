@@ -40,12 +40,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'corsheaders',
     'rest_framework',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
+
     'valuation',
-    'users'
+    'users',
+    'training'
 ]
 
 
@@ -101,6 +104,8 @@ WSGI_APPLICATION = 'ApartmentValuation.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
 DATABASES = {
     "default": {
