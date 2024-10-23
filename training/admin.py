@@ -23,6 +23,7 @@ class TrainingJobAdmin(admin.ModelAdmin):
                     job.save()
                 except Exception as e:
                     job.status = "failed"
+                    job.save()
                     print(e)
 
     train_models.short_description = "Start model training"
