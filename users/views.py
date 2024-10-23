@@ -1,12 +1,14 @@
 from rest_framework import generics, permissions
-from .models import User, ApartmentSearch
-from .serializers import UserSerializer, ApartmentSearchSerializer, CreateApartmentSearchSerializer
+from .models import ApartmentSearch
+from .serializers import UserSerializer, ApartmentSearchSerializer
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework_simplejwt.views import TokenObtainPairView
+from django.contrib.auth import get_user_model
+User = get_user_model()
 
 class LogoutView(APIView):
     permission_classes = (IsAuthenticated,)
@@ -29,7 +31,6 @@ class UserDetailView(generics.RetrieveUpdateAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = [IsAuthenticated]
-
 
 class CustomTokenObtainPairView(TokenObtainPairView):
     def post(self, request, *args, **kwargs):

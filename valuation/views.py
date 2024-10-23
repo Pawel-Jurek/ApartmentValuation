@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from users.models import ApartmentSearch
-from .util import get_estimated_price, get_addresses
+from .utils  import get_estimated_price, get_addresses
 from django.views.decorators.csrf import csrf_exempt
 import json
 
@@ -43,10 +43,6 @@ def valuation(request):
         year = 2021.0
         prediction_year= 2025
         prediction_quartal = 1
-
-
-
-    
 
 
     if sq and district and city and floor != None and rooms and year and prediction_quartal and prediction_year:

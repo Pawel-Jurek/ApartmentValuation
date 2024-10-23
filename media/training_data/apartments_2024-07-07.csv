@@ -1,0 +1,365 @@
+id,district,city,floor,price,rooms,sq,year,price_per_sq,update_date,offer_url
+29570,Jeżyce,Poznań,1,379000.00,1,25.40,1975,14921.00,2024-07-07,https://www.otodom.pl/pl/oferta/kawalerka-w-sercu-jezyc-idealna-dla-studenta-ID4rhfl
+29572,Nowe Miasto,Poznań,0,550000.00,3,53.30,1975,10319.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-wysoki-parter-balkon-os-lecha-ID4rgAw
+29640,Grunwald,Poznań,7,465000.00,2,49.50,1980,9394.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-przy-ul-jugoslowianskiej-2-pokoje-ID4r5Dz
+30097,Grunwald,Poznań,1,1320000.00,3,76.20,2013,17323.00,2024-07-07,https://www.otodom.pl/pl/oferta/grunwald-apartament-mieszkanie-3-4-pokoje-balkon-ID4rlDL
+30341,Jeżyce,Poznań,4,1440000.00,3,64.60,2021,22291.00,2024-07-07,https://www.otodom.pl/pl/oferta/unikatowy-apartament-w-centrum-jezyc-ID4qroA
+30605,Nowe Miasto,Poznań,5,1040000.00,4,73.13,2023,14221.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-wykonczone-73-m2-zelazna-1-2x-parking-ID4r5av
+30620,Grunwald,Poznań,1,769317.15,3,61.57,2023,12495.00,2024-07-07,https://www.otodom.pl/pl/oferta/bezposrednio-grunwald-nowe-3-pokoje-m-postojowe-ID4r2kv
+30926,Stare Miasto,Poznań,2,478052.00,2,43.69,2024,10942.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pok-44m2-balkon-szybki-odbior-ID4qYsu
+31099,Grunwald,Poznań,3,841510.37,4,69.79,2024,12058.00,2024-07-07,https://www.otodom.pl/pl/oferta/komfortowe-m4-z-dwoma-balkonami-ID4qXxt
+31100,Grunwald,Poznań,1,757367.46,4,59.98,2024,12627.00,2024-07-07,https://www.otodom.pl/pl/oferta/ustawne-m4-do-wlasnej-aranzacji-2-balkony-ID4qXxs
+31120,Grunwald,Poznań,1,831799.09,4,69.79,2024,11919.00,2024-07-07,https://www.otodom.pl/pl/oferta/piekne-m4-do-wlasnej-aranzacji-2-balkony-ID4qSyr
+31123,Grunwald,Poznań,4,724073.35,3,52.91,2024,13685.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowy-apartament-na-lazarzu-3-pokoje-cicha-ulica-ID4qSyi
+31178,Grunwald,Poznań,1,831799.09,4,69.79,2024,11919.00,2024-07-07,https://www.otodom.pl/pl/oferta/4-pokoje-obok-parku-wilsona-2-balkony-0-prow-ID4qvaM
+31179,Grunwald,Poznań,1,757367.46,4,59.98,2024,12627.00,2024-07-07,https://www.otodom.pl/pl/oferta/4-pokoje-obok-parku-wilsona-2-balkony-0-prow-ID4qvau
+31261,Nowe Miasto,Poznań,5,536863.60,3,50.96,2024,10535.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-3-pokoje-okazja-50-96-m2-rataje-ID4pk7j
+31266,Nowe Miasto,Poznań,5,672662.33,4,64.91,2024,10363.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-4-pokoje-promocja-64-91-m2-rataje-ID4piUN
+31267,Nowe Miasto,Poznań,1,532481.04,3,50.96,2024,10449.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-3-pokoje-okazja-50-96-m2-rataje-ID4piUM
+31268,Nowe Miasto,Poznań,6,432582.15,2,36.85,2024,11739.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-2-pokoje-promocja-36-85-m2-rataje-ID4piUI
+31277,Nowe Miasto,Poznań,6,484063.04,2,44.32,2024,10922.00,2024-07-07,https://www.otodom.pl/pl/oferta/przestronne-2-pokoje-44-32-m2-balkon-rataje-ID4p69G
+31278,Nowe Miasto,Poznań,0,482528.80,2,43.16,2024,11180.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-2-pokoje-z-ogrodkiem-43-16-m2-rataje-ID4p62H
+31285,Nowe Miasto,Poznań,4,577220.82,3,55.47,2024,10406.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-ustawne-3-pokoje-55-47-m2-balkon-rataje-ID4p2Iu
+31291,Nowe Miasto,Poznań,3,568687.90,3,54.65,2024,10406.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-3-pokoje-dwustronne-54-65-m2-rataje-ID4p1vI
+31292,Nowe Miasto,Poznań,4,433375.07,2,37.19,2024,11653.00,2024-07-07,https://www.otodom.pl/pl/oferta/ustawne-2-pokoje-z-balkonem-37-19-m2-rataje-ID4p1vF
+31295,Nowe Miasto,Poznań,5,540311.34,3,49.47,2024,10922.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-3-pokoje-okazja-49-47-m2-rataje-ID4oY22
+31302,Nowe Miasto,Poznań,1,538565.11,3,51.97,2024,10363.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-3-pokoje-hit-cenowy-51-97-m2-rataje-ID4oOb0
+31303,Nowe Miasto,Poznań,2,626423.14,4,61.21,2024,10234.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-4-pokoje-promocja-61-21-m2-rataje-ID4oOb2
+31913,Nowa Huta,Kraków,2,630000.00,2,50.21,1957,12547.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-niezalezne-pokoje-balkon-ii-pietro-ID4r9Sq
+32339,Grzegórzki,Kraków,1,835000.00,2,48.50,1970,17216.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-grzegorzki-ID4r9R9
+32744,Prądnik Czerwony,Kraków,4,760000.00,3,51.76,1980,14683.00,2024-07-07,https://www.otodom.pl/pl/oferta/na-sprzedaz-mieszkanie-51-76m2-3-pokoje-pradnik-ID4qXnY
+32867,Mistrzejowice,Kraków,10,699000.00,3,52.00,1985,13442.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-3-pok-52-m2-loggia-piastow-eng-ID4r9YM
+33115,Podgórze,Kraków,1,1100000.00,4,69.53,2000,15821.00,2024-07-07,https://www.otodom.pl/pl/oferta/plaszow-ok-zalew-bagry-4-pokoje-2-balkony-ID4rmkY
+33118,Bronowice,Kraków,1,599000.00,1,35.00,2000,17114.00,2024-07-07,https://www.otodom.pl/pl/oferta/rydla-krakow-bronowice-35-m2-mozliwe-2-pokoje-ID4qRHi
+33317,Swoszowice,Kraków,1,719899.96,3,60.20,2004,11958.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-do-wejscia-duzy-salon-sprawdz-teraz-ID4pXZr
+33346,Prądnik Biały,Kraków,7,810000.00,3,57.12,2005,14181.00,2024-07-07,https://www.otodom.pl/pl/oferta/trzypokojowe-mieszkanie-przy-ul-m-reja-zabiniec-ID4r1PG
+34143,Stare Miasto,Kraków,1,1790000.00,4,78.00,2016,22949.00,2024-07-07,https://www.otodom.pl/pl/oferta/stare-miasto-rakowicka-2x39m2-eng-ua-ID4qjKX
+29078,Wilda,Poznań,1,699000.00,3,51.92,1900,13463.00,2024-07-07,https://www.otodom.pl/pl/oferta/gotowiec-inwestycyjny-3-mikro-kawalerki-ID4oanU
+47075,Stare Miasto,Poznań,1,839000.00,3,70.00,1903,11986.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-chwaliszewo-poznan-70m2-ID4rp9K
+29141,Jeżyce,Poznań,2,596030.40,2,52.56,1906,11340.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-w-rewitalizowanej-kamienicy-na-jezycach-ID4r98k
+47076,Wilda,Poznań,0,335000.00,1,44.00,1920,7614.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-do-remontu-na-wildzie-ID4rq1k
+47077,Nowe Miasto,Poznań,1,565000.00,2,59.00,1930,9576.00,2024-07-07,https://www.otodom.pl/pl/oferta/dwupokojowe-oddzielna-kuchnia-miejsce-postojowe-ID4rqkY
+47078,Nowe Miasto,Poznań,1,420000.00,1,37.00,1930,11351.00,2024-07-07,https://www.otodom.pl/pl/oferta/po-remoncie-mieszkanie-z-oddzielna-kuchnia-ID4rqkV
+47079,Jeżyce,Poznań,2,759000.00,3,95.00,1930,7989.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-przy-mtp-ID4qT6R
+47080,Jeżyce,Poznań,0,415340.00,2,43.72,1937,9500.00,2024-07-07,https://www.otodom.pl/pl/oferta/jezyce-mieszkanie-do-kapitalnego-remontu-ID4qXlN
+47081,Wilda,Poznań,2,419000.00,1,37.50,1949,11173.00,2024-07-07,https://www.otodom.pl/pl/oferta/bardzo-duza-kawalerka-oddzielna-kuchnia-ID4rq2h
+29356,Stare Miasto,Poznań,3,539000.00,2,45.48,1952,11851.00,2024-07-07,https://www.otodom.pl/pl/oferta/top-lokalizacja-przy-starym-rynku-0-prowizji-ID4qZH9
+47082,Grunwald,Poznań,1,469000.00,2,38.17,1960,12287.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-z-niezaleznym-ukladem-top-lokalizacja-ID4rpFO
+47083,Wilda,Poznań,1,515000.00,2,43.20,1960,11921.00,2024-07-07,https://www.otodom.pl/pl/oferta/bezposrednio-rolna-52a-poznan-wilda-ID4rphz
+29391,Stare Miasto,Poznań,3,510000.00,1,33.90,1960,15044.00,2024-07-07,https://www.otodom.pl/pl/oferta/przestronna-kawalerka-przy-starym-rynku-ID4rcFF
+47084,Jeżyce,Poznań,4,419000.00,2,41.80,1961,10024.00,2024-07-07,https://www.otodom.pl/pl/oferta/poznan-jezyce-mylna-2-pokojowe-ID4rqZG
+47085,Grunwald,Poznań,3,699000.00,3,55.00,1961,12709.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-55m2-po-remoncie-wysoki-standard-ID4rp6E
+47086,Grunwald,Poznań,4,320000.00,1,23.00,1964,13913.00,2024-07-07,https://www.otodom.pl/pl/oferta/grunwald-przytulna-kawalerka-z-widokiem-bezposr-ID4rqfc
+47087,Grunwald,Poznań,4,465000.00,2,37.50,1968,12400.00,2024-07-07,https://www.otodom.pl/pl/oferta/piekne-2-pokoje-na-bulgarskiej-ID4rp7m
+47088,Jeżyce,Poznań,7,619000.00,3,49.20,1970,12581.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-na-winiarach-z-zachodami-slonca-ID4rlsO
+47089,Jeżyce,Poznań,8,499000.00,3,44.20,1970,11290.00,2024-07-07,https://www.otodom.pl/pl/oferta/klimatyczne-m3-z-piekna-panorama-bogatego-solacza-ID4rpho
+29467,Wilda,Poznań,4,449000.00,3,46.20,1970,9719.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-z-balkonem-debiec-ID4rbTc
+29505,Stare Miasto,Poznań,4,550000.00,4,64.90,1970,8475.00,2024-07-07,https://www.otodom.pl/pl/oferta/duzy-potencjal-pod-wynajem-lub-dla-rodziny-ID4q3uI
+29518,Nowe Miasto,Poznań,3,410000.00,2,46.00,1970,8913.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-poznan-nowe-miasto-2-pokoje-ID4qYoM
+47090,Grunwald,Poznań,8,495000.00,3,52.82,1973,9371.00,2024-07-07,https://www.otodom.pl/pl/oferta/grunwald-3pok-52m2-blisko-parku-495-tys-zl-ID4rp8L
+47091,Grunwald,Poznań,9,499000.00,2,42.20,1974,11825.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-2-pokojowe-z-cudownym-widokiem-ID4rpXt
+29558,Grunwald,Poznań,9,499000.00,2,42.00,1974,11881.00,2024-07-07,https://www.otodom.pl/pl/oferta/komfortowe-m2-dla-singla-pary-studentow-ID4rdLC
+47092,Nowe Miasto,Poznań,7,699000.00,3,77.80,1977,8985.00,2024-07-07,https://www.otodom.pl/pl/oferta/na-sprzedaz-mieszkanie-3-pokoje-os-piastowskie-ID4rqz7
+47093,Nowe Miasto,Poznań,10,520000.00,2,48.40,1978,10744.00,2024-07-07,https://www.otodom.pl/pl/oferta/5512-funkcjonalne-mieszkanie-2-pok-48m2-rataje-ID4rqqQ
+47094,Nowe Miasto,Poznań,5,560000.00,2,51.10,1979,10959.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-orla-bialego-poznan-balkon-ID4rfg1
+47095,Nowe Miasto,Poznań,2,439000.00,2,38.00,1980,11553.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-z-pieknym-widokiem-po-remoncie-ID4rqNf
+29669,Grunwald,Poznań,10,620000.00,4,75.00,1980,8267.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-inwestycyjne-na-grunwaldzie-ID4qbtk
+47096,Stare Miasto,Poznań,0,459000.00,2,46.80,1980,9808.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-2-pokojowe-na-os-zwyciestwa-19a-bez-ID4rqV5
+47097,Nowe Miasto,Poznań,3,659000.00,4,74.00,1980,8905.00,2024-07-07,https://www.otodom.pl/pl/oferta/piekne-i-duze-m4-w-spokojnej-okolicy-z-linia-tram-ID4rpih
+47098,Stare Miasto,Poznań,0,449999.00,2,46.80,1981,9615.00,2024-07-07,https://www.otodom.pl/pl/oferta/dwupokojowe-mieszkanie-z-balkonem-ID4rp7X
+47099,Nowe Miasto,Poznań,9,779000.00,3,79.00,1985,9861.00,2024-07-07,https://www.otodom.pl/pl/oferta/duze-m3-po-remoncie-z-panorama-poznania-j-malta-ID4rpmB
+29712,Stare Miasto,Poznań,2,550000.00,3,59.10,1985,9306.00,2024-07-07,https://www.otodom.pl/pl/oferta/ustawne-mieszkanie-z-balkonem-na-zielonym-osiedlu-ID4r71z
+47100,Stare Miasto,Poznań,4,679000.00,4,73.60,1986,9226.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-4-pokoje-os-boleslawa-smialego-ID4rqzU
+47101,Grunwald,Poznań,4,499000.00,4,56.00,1986,8911.00,2024-07-07,https://www.otodom.pl/pl/oferta/cztery-pokoje-za-niewysoka-cene-ID4rqey
+47102,Stare Miasto,Poznań,0,760000.00,4,73.30,1988,10368.00,2024-07-07,https://www.otodom.pl/pl/oferta/m-4-pokoje-na-naramowicach-balkon-2-piwnice-ID4qOu3
+47103,Stare Miasto,Poznań,4,865000.00,3,70.80,1995,12218.00,2024-07-07,https://www.otodom.pl/pl/oferta/komfortowy-apartament-przy-cytadeli-winogrady-ID4oBus
+47104,Stare Miasto,Poznań,3,749000.00,3,72.80,1997,10288.00,2024-07-07,https://www.otodom.pl/pl/oferta/bardzo-zadbane-i-przestronne-72-8-m-poznan-ID4rpGX
+47105,Stare Miasto,Poznań,1,470000.00,2,39.20,1997,11990.00,2024-07-07,https://www.otodom.pl/pl/oferta/atrakcyjne-2-pokoje-39-2m2os-lokietka-i-p-balkon-ID4rp72
+29846,Jeżyce,Poznań,2,379000.00,1,32.00,2000,11590.00,2024-07-07,https://www.otodom.pl/pl/oferta/kawalerka-32m2-strzeszyn-grecki-ID4qMA2
+47106,Stare Miasto,Poznań,4,739000.00,3,66.50,2000,11113.00,2024-07-07,https://www.otodom.pl/pl/oferta/piatkowo-3-niezalezne-pokoje-super-lokalizacja-ID4rg1g
+47107,Stare Miasto,Poznań,3,493691.00,2,42.60,2003,11589.00,2024-07-07,https://www.otodom.pl/pl/oferta/zobacz-krolewska-z-widokiem-na-zielen-bezposrednio-ID4qPAc
+29931,Jeżyce,Poznań,1,740000.00,2,60.00,2006,12333.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-60-m2-dwupokojowe-centrum-jezycka-38-ID4qgqx
+47108,Nowe Miasto,Poznań,3,664900.00,2,45.00,2007,14776.00,2024-07-07,https://www.otodom.pl/pl/oferta/pelikanapartament-z-dostepem-do-basenu-i-sauny-ID4rqw4
+47109,Jeżyce,Poznań,1,569000.00,2,47.00,2007,12106.00,2024-07-07,https://www.otodom.pl/pl/oferta/zadbane-i-przytulne-otoczone-zielenia-ID4rqdO
+47110,Stare Miasto,Poznań,1,730000.00,3,62.00,2008,11774.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-dostepne-od-zaraz-wilczak-3pokoje-ID4rp7V
+47111,Jeżyce,Poznań,3,725000.00,2,54.00,2011,13426.00,2024-07-07,https://www.otodom.pl/pl/oferta/budynek-z-2011r-koscielna-54-m2-bez-prowizji-ID4pKvp
+47112,Stare Miasto,Poznań,3,699000.00,3,54.70,2012,12779.00,2024-07-07,https://www.otodom.pl/pl/oferta/bezposrednio-3-pokoje-55m2-wysoki-standard-ID4rqmz
+47113,Stare Miasto,Poznań,1,600000.00,2,51.56,2012,11637.00,2024-07-07,https://www.otodom.pl/pl/oferta/rozkladowe-niezalezne-pokoje-balkon-ID4rqCk
+30069,Nowe Miasto,Poznań,5,505000.00,1,38.00,2012,13289.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowoczesny-apartament-blisko-posnaniitarasy-warty-ID4qM2m
+47114,Wilda,Poznań,3,409000.00,1,29.31,2013,13954.00,2024-07-07,https://www.otodom.pl/pl/oferta/wilda-nowoczesna-kawalerka-w-centrum-miasta-ID4rq0t
+47115,Stare Miasto,Poznań,1,634000.00,3,55.00,2013,11527.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pok-mieszkanie-na-piatkowie-w-nowym-budynku-ID4rpVr
+47116,Grunwald,Poznań,2,840000.00,3,50.34,2013,16687.00,2024-07-07,https://www.otodom.pl/pl/oferta/3pok-mieszk-d-balkon-m-postojowe-marcelin-ataner-ID4roPb
+30116,Stare Miasto,Poznań,2,739000.00,3,60.45,2014,12225.00,2024-07-07,https://www.otodom.pl/pl/oferta/komfortowe-3-pokojowe-mieszkanie-na-naramowicach-ID4qMq4
+47117,Stare Miasto,Poznań,1,539500.00,3,37.75,2014,14291.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-mieszkanie-3-pokojowe-w-pelni-wyposazone-ID4rpBM
+47118,Grunwald,Poznań,1,521500.00,2,36.09,2014,14450.00,2024-07-07,https://www.otodom.pl/pl/oferta/gotowe-grunwald-wysoki-standard-ID4qOqN
+47119,Grunwald,Poznań,0,949000.00,3,67.01,2015,14162.00,2024-07-07,https://www.otodom.pl/pl/oferta/wojskowa-7-ochrona-miejsce-w-hali-garazowej-ID4rr0e
+47120,Wilda,Poznań,1,489000.00,1,30.83,2015,15861.00,2024-07-07,https://www.otodom.pl/pl/oferta/kawalerka-31-m2-wilda-ul-rolna-43-ID4rqzN
+47121,Stare Miasto,Poznań,4,1440000.00,4,99.00,2015,14545.00,2024-07-07,https://www.otodom.pl/pl/oferta/promocja-ID4rpzG
+47122,Stare Miasto,Poznań,4,650000.00,1,44.00,2015,14773.00,2024-07-07,https://www.otodom.pl/pl/oferta/promocja-ID4rpzo
+47123,Stare Miasto,Poznań,4,790000.00,2,55.00,2015,14364.00,2024-07-07,https://www.otodom.pl/pl/oferta/promocja-ID4rpzk
+47124,Grunwald,Poznań,0,789000.00,3,61.40,2016,12850.00,2024-07-07,https://www.otodom.pl/pl/oferta/przestronne-mieszkanie-idealne-na-gabinet-lub-dom-ID4rp44
+47125,Nowe Miasto,Poznań,4,599000.00,2,45.00,2016,13311.00,2024-07-07,https://www.otodom.pl/pl/oferta/komfortowe-w-doskonalej-lokalizacji-2-pokoje-ID4rpaB
+47126,Wilda,Poznań,4,800000.00,3,53.43,2017,14973.00,2024-07-07,https://www.otodom.pl/pl/oferta/poznan-rolna-3-pokoje-z-miejscem-w-hali-garazowej-ID4rqXS
+30219,Grunwald,Poznań,1,659000.00,3,46.45,2018,14187.00,2024-07-07,https://www.otodom.pl/pl/oferta/wyjatkowe-m-na-zamknietym-osiedlu-tuz-przy-parku-ID4rhn6
+47127,Nowe Miasto,Poznań,0,490000.00,2,41.40,2019,11836.00,2024-07-07,https://www.otodom.pl/pl/oferta/atrakcyjne-2-pokojowe-ID4rphu
+30272,Stare Miasto,Poznań,2,579000.00,2,42.12,2019,13746.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowoczesne-mieszkanie-2-pokojowe-os-b-smialego-ID4qUAP
+47128,Jeżyce,Poznań,1,548000.00,2,43.00,2020,12744.00,2024-07-07,https://www.otodom.pl/pl/oferta/sprzedam-mieszkanie-43m2-podolany-ID4rq4D
+47129,Stare Miasto,Poznań,2,880000.00,3,62.04,2020,14184.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-piekne-mieszkanie-premium-naramowice-ID4rpaq
+30286,Grunwald,Poznań,3,1599000.00,3,72.00,2020,22208.00,2024-07-07,https://www.otodom.pl/pl/oferta/luksusowy-apartament-z-widokiem-na-jezioro-ID4r2Vx
+47130,Stare Miasto,Poznań,0,1350000.00,2,49.12,2020,27484.00,2024-07-07,https://www.otodom.pl/pl/oferta/prestiz-i-styl-w-topowej-lokalizacji-towarowa-39-ID4pBVm
+47131,Nowe Miasto,Poznań,0,238000.00,1,19.60,2021,12143.00,2024-07-07,https://www.otodom.pl/pl/oferta/kawalerka-na-sprzedaz-stan-deweloperski-ID4q2r7
+47132,Wilda,Poznań,3,649000.00,2,37.60,2021,17261.00,2024-07-07,https://www.otodom.pl/pl/oferta/wyjatkowe-2-pokoje-na-wildzie-w-kameralnym-budynku-ID4rqjG
+30324,Nowe Miasto,Poznań,0,445000.00,2,40.20,2021,11070.00,2024-07-07,https://www.otodom.pl/pl/oferta/chartowo-tower-dwa-pokoje-40-2-m2-15p-ID4rizV
+47133,Stare Miasto,Poznań,1,939000.00,3,65.08,2022,14428.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-wykonczone-3-pokojowe-blisko-centrum-ID4rnID
+47134,Nowe Miasto,Poznań,0,429800.00,1,26.27,2022,16361.00,2024-07-07,https://www.otodom.pl/pl/oferta/kawalerka-z-ogrodkiem-wagrowska-ID4rpKa
+47135,Jeżyce,Poznań,3,433800.00,2,34.42,2023,12603.00,2024-07-07,https://www.otodom.pl/pl/oferta/jezyce-2-pokoje-gotowe-do-odbioru-ID4qUQl
+47136,Jeżyce,Poznań,1,529420.00,3,51.40,2023,10300.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-51m2-balkon-bez-prowizji-ID4d7wh
+30419,Grunwald,Poznań,4,1079000.00,4,71.88,2023,15011.00,2024-07-07,https://www.otodom.pl/pl/oferta/niesamowite-m-z-widokiem-na-stadion-tuz-przy-lesie-ID4roG8
+47137,Stare Miasto,Poznań,1,492000.00,1,21.70,2023,22673.00,2024-07-07,https://www.otodom.pl/pl/oferta/kawalerka-na-sprzedaz-ID4paSv
+47138,Jeżyce,Poznań,7,1150000.00,4,66.50,2023,17293.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowy-4-pokojowy-apartament-z-tarasem-35m2-ID4rqPj
+47139,Wilda,Poznań,0,594875.00,2,47.59,2023,12500.00,2024-07-07,https://www.otodom.pl/pl/oferta/apartamenty-bergera-ustawny-apartament-1-13-ID4dSqR
+47140,Nowe Miasto,Poznań,4,1059000.00,4,76.07,2023,13921.00,2024-07-07,https://www.otodom.pl/pl/oferta/przepiekne-4-pokojowe-dwustronne-mieszkanie-ID4rlB2
+30464,Jeżyce,Poznań,0,529000.00,2,35.22,2023,15020.00,2024-07-07,https://www.otodom.pl/pl/oferta/czarujace-m-z-ogrodkiem-idealne-na-start-ID4r6kd
+47141,Wilda,Poznań,2,1299000.00,5,90.19,2023,14403.00,2024-07-07,https://www.otodom.pl/pl/oferta/luksusowy-apartament-na-wildzie-w-willi-miejskiej-ID4rqiV
+30601,Stare Miasto,Poznań,2,488000.00,2,42.53,2023,11474.00,2024-07-07,https://www.otodom.pl/pl/oferta/poznan-naramowice-sprzedaz-bezposrednia-ID4r5qk
+47142,Grunwald,Poznań,1,850000.00,3,58.54,2023,14520.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowoczesny-unikatowy-apartament-mieszkaj-wyjatkowo-ID4rqhy
+47143,Nowe Miasto,Poznań,0,772528.00,3,72.88,2023,10600.00,2024-07-07,https://www.otodom.pl/pl/oferta/ostatnie-3-pokojowe-gotowe-do-odbioru-j-mala-ID4rq0m
+30520,Grunwald,Poznań,3,1628495.40,4,94.57,2023,17220.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-z-tarasem-poznan-grunwald-palacza-97-ID4pe3Z
+47144,Jeżyce,Poznań,1,1299000.00,3,82.00,2023,15841.00,2024-07-07,https://www.otodom.pl/pl/oferta/jezyce-gotowe-umeblowane-3-pokoje-82m2-ogrodek-ID4rpBN
+47145,Stare Miasto,Poznań,1,650000.00,3,56.81,2023,11442.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-wykonczone-mieszkanie-3-pokojowe-piatkowo-ID4qhNL
+30518,Stare Miasto,Poznań,4,819000.00,3,58.00,2023,14121.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-mieszkanie-urzadzone-pod-klucz-58-m2-3-pokoje-ID4q1p1
+47146,Grunwald,Poznań,3,875500.00,3,63.00,2023,13897.00,2024-07-07,https://www.otodom.pl/pl/oferta/piekne-komfortowe-3-pokoje-z-duzym-balkonem-ID4rdmm
+47147,Jeżyce,Poznań,0,853976.00,3,63.10,2023,13534.00,2024-07-07,https://www.otodom.pl/pl/oferta/naturama-3-pok-mieszkanie-e-0-03-ID4oEPA
+47148,Grunwald,Poznań,3,899793.00,1,58.81,2023,15300.00,2024-07-07,https://www.otodom.pl/pl/oferta/rezerwacja-perfumiarnia-mieszkanie-b-04-03-ID4c5Do
+47149,Grunwald,Poznań,1,809400.00,1,57.00,2023,14200.00,2024-07-07,https://www.otodom.pl/pl/oferta/perfumiarnia-w-parku-wilsona-mieszkanie-b-02-02-ID4c5C8
+47150,Stare Miasto,Poznań,1,499000.00,2,45.17,2023,11047.00,2024-07-07,https://www.otodom.pl/pl/oferta/poznan-komfortowe-mieszkanie-z-balkonem-45m2-ID4nmjX
+47151,Grunwald,Poznań,7,840703.00,3,63.75,2023,13187.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-63m2-ogrodek-ID4lc6U
+47152,Jeżyce,Poznań,1,559439.00,3,55.39,2023,10100.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-55m2-balkon-bezposrednio-ID4d7uP
+47153,Grunwald,Poznań,2,673805.00,3,59.22,2024,11378.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-59m2-balkon-ID4iw47
+47154,Jeżyce,Poznań,2,599000.00,2,34.16,2024,17535.00,2024-07-07,https://www.otodom.pl/pl/oferta/sprzedam-nowe-2-pok-mieszkanie-na-jezycach-ID4rpw4
+47155,Nowe Miasto,Poznań,7,485543.00,2,43.79,2024,11088.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pok-44m2-tramwaj-centrum-klucze-3q-2024r-ID4rqGj
+47156,Nowe Miasto,Poznań,7,530895.00,3,49.57,2024,10710.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pok-50m2-balkon-klucze-3q-2024r-ID4rqGh
+47157,Stare Miasto,Poznań,0,1243436.00,3,69.57,2024,17873.00,2024-07-07,https://www.otodom.pl/pl/oferta/dzialynskich-6-prestizowy-adres-0-5-ID4h8Us
+47158,Jeżyce,Poznań,3,345000.00,1,28.63,2024,12050.00,2024-07-07,https://www.otodom.pl/pl/oferta/1-pokojowe-mieszkanie-28m2-balkon-bez-prowizji-ID4lCEu
+47159,Stare Miasto,Poznań,4,536029.00,3,47.80,2024,11214.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pok-48m2-dwustronne-poddasze-szybki-odbior-ID4rqwk
+47160,Stare Miasto,Poznań,0,469193.00,2,41.84,2024,11214.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pok-42m2-ogrodek-szybki-odbior-ID4rqw6
+30814,Nowe Miasto,Poznań,2,279227.47,1,25.14,2024,11107.00,2024-07-07,https://www.otodom.pl/pl/oferta/mala-kawalerka-z-balkonem-ID44xyq
+47161,Stare Miasto,Poznań,5,607317.00,1,27.77,2024,21870.00,2024-07-07,https://www.otodom.pl/pl/oferta/dzialynskich-6-prestizowy-adres-5-5-ID4haBG
+47162,Nowe Miasto,Poznań,0,743277.00,4,73.82,2024,10069.00,2024-07-07,https://www.otodom.pl/pl/oferta/prawie-gotowe-2-ogrodki-zostaw-wiadomosc-ID4rpFB
+47163,Stare Miasto,Poznań,1,525360.00,2,43.78,2024,12000.00,2024-07-07,https://www.otodom.pl/pl/oferta/ostatnie-nowe-mieszkanie-na-winogradach-ID4pMot
+47164,Stare Miasto,Poznań,0,639183.00,2,51.34,2024,12450.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokoje-2-miejsca-postojowe-szybki-termin-ID4pRxF
+47165,Jeżyce,Poznań,3,509784.00,1,40.98,2024,12440.00,2024-07-07,https://www.otodom.pl/pl/oferta/top-lokalizacja-bezposrednio-centrum-poznania-ID4qyC0
+47166,Nowe Miasto,Poznań,5,671545.00,3,54.82,2024,12250.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-masto-3-pokoje-z-m-post-prom-bezp-ID4qzgS
+47167,Nowe Miasto,Poznań,2,657019.00,4,64.91,2024,10122.00,2024-07-07,https://www.otodom.pl/pl/oferta/4-pok-65m2-osobne-wc-2-balkony-klucze-2024r-ID4rpmZ
+47168,Grunwald,Poznań,0,884378.00,4,86.94,2024,10172.00,2024-07-07,https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-86m2-ogrodek-ID4iEwA
+47169,Nowe Miasto,Poznań,5,575612.00,2,48.12,2024,11962.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-48m2-loggia-ID4hMc4
+47170,Nowe Miasto,Poznań,1,558603.00,2,47.06,2024,11870.00,2024-07-07,https://www.otodom.pl/pl/oferta/bezposrednio-2pok-szybkii-termin-super-lok-ID4rp9m
+47171,Jeżyce,Poznań,1,562719.00,3,55.77,2024,10090.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-55m2-2-balkony-ID4lbkG
+47172,Jeżyce,Poznań,0,660135.00,4,73.43,2024,8990.00,2024-07-07,https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-73m2-ogrodek-bez-prowizji-ID4lbkO
+47173,Grunwald,Poznań,0,613158.00,3,57.82,2024,10605.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-57m2-2-ogrodki-ID4iEyh
+30913,Jeżyce,Poznań,2,439000.00,2,35.13,2024,12496.00,2024-07-07,https://www.otodom.pl/pl/oferta/gotowe-2-pok-mieszkanie-35-13-m2-strzeszyn-ID4r6cG
+47174,Grunwald,Poznań,1,573852.00,3,56.26,2024,10200.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-56m2-2-balkony-ID4iDTY
+30954,Jeżyce,Poznań,0,660135.70,4,73.43,2024,8990.00,2024-07-07,https://www.otodom.pl/pl/oferta/promocja-50-tys-gotowe-w-grudniu-2024-podolany-ID4rhop
+31049,Nowe Miasto,Poznań,2,253252.82,1,25.14,2024,10074.00,2024-07-07,https://www.otodom.pl/pl/oferta/kawalerka-ostatnie-sztuki-oddanie-kluczy-iv-kwarta-ID4r6de
+31072,Nowe Miasto,Poznań,8,464742.60,2,39.10,2024,11886.00,2024-07-07,https://www.otodom.pl/pl/oferta/promocja-odbior-wrzesien-wagrowska-rataje-ID4r1TK
+47175,Nowe Miasto,Poznań,2,315598.00,2,34.95,2024,9030.00,2024-07-07,https://www.otodom.pl/pl/oferta/2pok-idealna-inwestycja-szybki-zwrot-dobra-cena-ID4qvAf
+47176,Nowe Miasto,Poznań,1,686000.00,3,65.38,2024,10493.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-65m2-loggia-bezposrednio-ID4hMaW
+47177,Stare Miasto,Poznań,3,2048254.00,3,100.30,2024,20421.00,2024-07-07,https://www.otodom.pl/pl/oferta/dzialynskich-6-biuro-lub-mieszkanie-3-6-ID4haAt
+31119,Grunwald,Poznań,2,569080.54,2,39.84,2024,14284.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-funkcjonalne-m2-z-balkonem-w-sercu-miasta-ID4qSyt
+31151,Jeżyce,Poznań,0,476340.00,2,34.92,2024,13641.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-na-podolanach-ID4qJOx
+47178,Nowe Miasto,Poznań,1,558603.00,2,47.06,2024,11870.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-47m2-loggia-bez-prowizji-ID4hMe9
+47179,Nowe Miasto,Poznań,1,578718.00,3,54.91,2024,10539.00,2024-07-07,https://www.otodom.pl/pl/oferta/promocja-nowe-masto-3-pokoje-z-m-post-bezp-ID4pQld
+47180,Stare Miasto,Poznań,5,842760.00,2,70.23,2024,12000.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-3-pokoje-na-winogradach-ID4pN9a
+47181,Stare Miasto,Poznań,1,758400.00,3,63.20,2024,12000.00,2024-07-07,https://www.otodom.pl/pl/oferta/tarasy-wilczak-iv-etap-ID4pH6R
+47182,Nowe Miasto,Poznań,4,345000.00,2,42.24,2024,8168.00,2024-07-07,https://www.otodom.pl/pl/oferta/smartapartament-dwupoziomowy-dla-inwestora-ID4qd98
+31260,Nowe Miasto,Poznań,2,576591.30,4,57.06,2024,10105.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-4-pokoje-hit-cenowy-57-06-m2-rataje-ID4plG5
+31284,Nowe Miasto,Poznań,1,558342.96,4,55.02,2024,10148.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-4-pokoje-2-balkony-55-02-m2-rataje-ID4p2IA
+31304,Nowe Miasto,Poznań,2,667080.07,4,64.91,2024,10277.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowe-4-pokoje-hit-cenowy-64-91-m2-rataje-ID4oM3V
+47183,Nowe Miasto,Poznań,4,576485.00,2,47.06,2024,12250.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-47m2-loggia-bez-prowizji-ID4hMc6
+47184,Grunwald,Poznań,0,626317.00,3,61.30,2024,10217.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-61m2-2-ogrodki-ID4iEyi
+47185,Grunwald,Poznań,3,633216.00,3,65.28,2024,9700.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-65m2-balkon-ID4iDUD
+47186,Nowe Miasto,Poznań,7,565000.00,2,46.17,2024,12237.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-46m2-loggia-bez-prowizji-ID4hMd7
+47187,Stare Miasto,Poznań,3,450000.00,2,36.00,2024,12500.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-z-pieknym-widokiem-naramowice-ID4lysz
+47188,Nowe Miasto,Poznań,0,529400.00,2,45.78,2024,11564.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-45m2-ogrodek-bez-prowizji-ID4hMbx
+47189,Stare Miasto,Kraków,1,839275.00,1,28.45,1900,29500.00,2024-07-07,https://www.otodom.pl/pl/oferta/przepiekny-apartament-przy-wawelu-28-45m-ID4rque
+47190,Stare Miasto,Kraków,0,945500.00,2,31.00,1900,30500.00,2024-07-07,https://www.otodom.pl/pl/oferta/ekluzywny-2pok-apartament-wykoncz-pod-klucz-winda-ID4rpWq
+47191,Stare Miasto,Kraków,3,4287000.00,5,153.00,1900,28020.00,2024-07-07,https://www.otodom.pl/pl/oferta/ekluzywny-4-5pok-penthouse-2-balkony-winda-ID4rpWn
+47192,Stare Miasto,Kraków,0,1098000.00,2,36.00,1900,30500.00,2024-07-07,https://www.otodom.pl/pl/oferta/ekluzywny-2pok-apartament-wykoncz-pod-klucz-winda-ID4rpWi
+31347,Stare Miasto,Kraków,4,1150000.00,3,71.00,1900,14557.00,2024-07-07,https://www.otodom.pl/pl/oferta/dwupoziomowy-apartament-stare-miasto-krakow-ID4rdIR
+31409,Grzegórzki,Kraków,0,606846.90,2,33.77,1905,17970.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokoje-w-centrum-duza-komorka-lokatorska-34-m2-ID4riaU
+31411,Grzegórzki,Kraków,0,678726.90,2,37.77,1905,17970.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-37-77-m-krakow-ID4riaS
+47193,Grzegórzki,Kraków,2,950000.00,2,35.14,1910,27035.00,2024-07-07,https://www.otodom.pl/pl/oferta/zamieszkaj-w-nowej-kamienicy-z-widokiem-na-zielen-ID4rq5E
+47194,Stare Miasto,Kraków,3,660000.00,2,45.20,1910,14602.00,2024-07-07,https://www.otodom.pl/pl/oferta/kazimierz-okazja-inwestycyjna-ID4rpmY
+47195,Stare Miasto,Kraków,2,1283400.00,2,41.40,1920,31000.00,2024-07-07,https://www.otodom.pl/pl/oferta/stare-miasto-ok-plant-41-m2-2-pok-balkon-ID4rpEz
+47196,Stare Miasto,Kraków,2,945500.00,2,31.00,1920,30500.00,2024-07-07,https://www.otodom.pl/pl/oferta/stare-miasto-31m2-2-pokoje-ii-pietro-ID4rpBT
+47197,Podgórze,Kraków,2,890000.00,2,33.00,1920,26970.00,2024-07-07,https://www.otodom.pl/pl/oferta/krakusa-2-pokoje-gotowe-do-zamieszkania-ID4rpux
+31660,Stare Miasto,Kraków,5,1105150.88,2,49.10,1930,22508.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-na-sprzedaz-ul-skawinska-49-10m2-ID4q9Ma
+31675,Stare Miasto,Kraków,5,1104700.90,2,49.10,1930,22499.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowoczesny-apartament-w-sercu-kazimierza-skawinska-ID4cgiK
+47198,Krowodrza,Kraków,2,1165000.00,2,68.90,1933,16909.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-2-pok-69m2-z-balkonem-krowodrza-ID4rpV3
+31765,Krowodrza,Kraków,4,830000.00,3,61.72,1940,13448.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-3-pokojowe-ul-cieszynska-krowodrza-ID4qvxO
+47199,Krowodrza,Kraków,3,1550000.00,5,90.50,1944,17127.00,2024-07-07,https://www.otodom.pl/pl/oferta/krakow-krowodrza-ul-krolewska-ID4rpNE
+47200,Bieżanów-Prokocim,Kraków,2,270000.00,1,24.00,1950,11250.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-drugie-pietro-skos-miejsce-post-i-komorka-ID4rpW9
+47201,Nowa Huta,Kraków,0,550000.00,2,36.00,1950,15278.00,2024-07-07,https://www.otodom.pl/pl/oferta/komfortowe-mieszkanie-w-otoczeniu-zieleni-ID4rqss
+47202,Krowodrza,Kraków,1,2000000.00,3,81.80,1950,24450.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowoczesny-apartament-w-centrum-krakowa-ID4rq07
+47203,Zwierzyniec,Kraków,2,880000.00,3,52.32,1950,16820.00,2024-07-07,https://www.otodom.pl/pl/oferta/3pokoje-do-wejscia-po-remoncie-bielany-zwierzyniec-ID4rpTJ
+47204,Bieżanów-Prokocim,Kraków,2,242000.00,1,24.00,1950,10083.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-drugie-pietro-skos-miejsce-post-i-komorka-ID4rpUL
+47205,Bieżanów-Prokocim,Kraków,1,267000.00,1,23.50,1950,11362.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-pierwsze-pietro-miejsce-post-i-komorka-ID4rpUK
+47206,Bieżanów-Prokocim,Kraków,1,225000.00,1,20.00,1950,11250.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-pierwsze-pietro-miejsce-post-i-komorka-ID4rpUJ
+47207,Bieżanów-Prokocim,Kraków,1,270000.00,1,24.00,1950,11250.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-pierwsze-pietro-miejsce-post-i-komorka-ID4rpOI
+47208,Bieżanów-Prokocim,Kraków,0,250000.00,1,22.00,1950,11364.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-zakup-gotowkowy-miejsce-post-i-komorka-ID4rpOF
+47209,Bieżanów-Prokocim,Kraków,0,238000.00,1,21.00,1950,11333.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-zakup-gotowkowy-miejsce-post-i-komorka-ID4rpOA
+47210,Bieżanów-Prokocim,Kraków,0,297000.00,1,26.00,1950,11423.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-zakup-gotowkowy-miejsce-post-i-komorka-ID4rpOw
+47211,Bieżanów-Prokocim,Kraków,0,270000.00,1,24.00,1950,11250.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-zakup-gotowkowy-miejsce-post-i-komorka-ID4rpOx
+47212,Nowa Huta,Kraków,5,640000.00,2,49.00,1950,13061.00,2024-07-07,https://www.otodom.pl/pl/oferta/krakow-nowa-huta-os-centrum-a-49-m-ID4rprq
+31844,Grzegórzki,Kraków,0,1999999.68,4,114.80,1950,17422.00,2024-07-07,https://www.otodom.pl/pl/oferta/stare-miasto-lubicz-4-pok-eng-ua-ID4qbb0
+47213,Nowa Huta,Kraków,2,777000.00,2,52.91,1953,14685.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokoje-po-remoncie-ID4rpq0
+31866,Prądnik Biały,Kraków,0,720000.00,3,51.47,1953,13989.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-z-ogrodem-ID4r2Uc
+47214,Nowa Huta,Kraków,2,820000.00,3,59.00,1954,13898.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-3-pokoje-59m-nowa-huta-ID4rqnD
+47215,Nowa Huta,Kraków,0,529000.00,2,30.00,1955,17633.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-m2-w-klimatycznej-starej-hucie-ID4rpIW
+47216,Nowa Huta,Kraków,4,719000.00,2,50.16,1956,14334.00,2024-07-07,https://www.otodom.pl/pl/oferta/kultowa-aleja-roz-nowa-huta-2-pokoje-50m2-eng-ID4rctY
+31904,Zwierzyniec,Kraków,1,565000.00,1,32.28,1956,17503.00,2024-07-07,https://www.otodom.pl/pl/oferta/ciche-sloneczne-mieszkanie-na-bielanach-pod-lasem-ID4qPUr
+47217,Prądnik Czerwony,Kraków,0,660000.00,2,47.00,1957,14043.00,2024-07-07,https://www.otodom.pl/pl/oferta/bezposrednio-odrebna-kuchnia-balkon-piwnica-ID4rce3
+47218,Nowa Huta,Kraków,2,630000.00,2,50.00,1958,12600.00,2024-07-07,https://www.otodom.pl/pl/oferta/ustawne-2-pokojowe-mieszkanie-blisko-trawaju-ID4rpSj
+47219,Grzegórzki,Kraków,4,749000.00,2,41.00,1960,18268.00,2024-07-07,https://www.otodom.pl/pl/oferta/grzegorzki-dabie-2-pokojowe-od-wlasciciela-ID4rpkq
+47220,Prądnik Czerwony,Kraków,4,725000.00,2,51.00,1960,14216.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokoje-51m-pradnik-czerwony-okazja-ID4rqVm
+47221,Nowa Huta,Kraków,1,795000.00,3,66.20,1960,12009.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-nowa-huta-66-2m2-os-gorali-10-ID4rqN3
+47222,Prądnik Czerwony,Kraków,0,560000.00,1,35.30,1960,15864.00,2024-07-07,https://www.otodom.pl/pl/oferta/35-m2-krakow-pawla-wlodkowica-ID4rq2s
+47223,Bieńczyce,Kraków,4,642000.00,3,54.22,1960,11841.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-jasna-kuchnia-zielona-okolica-ID4roMQ
+47224,Prądnik Czerwony,Kraków,4,725000.00,2,51.00,1960,14216.00,2024-07-07,https://www.otodom.pl/pl/oferta/czyzyny-2-pokoje-51m2-okolice-tauron-arena-ID4rofV
+32035,Grzegórzki,Kraków,1,725000.00,2,40.00,1960,18125.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-40-m-krakow-ID4qFZ3
+47225,Wzgórza Krzesławickie,Kraków,1,645000.00,2,47.65,1962,13536.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowa-huta-2-pokoje-oddzielna-kuchnia-ID4rq9f
+47226,Czyżyny,Kraków,0,568000.00,2,34.00,1963,16706.00,2024-07-07,https://www.otodom.pl/pl/oferta/czy-i-ciebie-mecza-schody-ID4rqxa
+47227,Bieńczyce,Kraków,0,568000.00,2,34.00,1963,16706.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowoczesne-przytulne-2-pokoje-ID4rqpo
+47228,Nowa Huta,Kraków,0,437000.00,1,33.84,1964,12914.00,2024-07-07,https://www.otodom.pl/pl/oferta/krakow-os-gorali-33-84-m2-jednopokojowe-cena-437-ID4rpEs
+47229,Grzegórzki,Kraków,4,617000.00,2,40.00,1965,15425.00,2024-07-07,https://www.otodom.pl/pl/oferta/40m-m2-ok-grzegorzeckiej-swietna-sprawa-by-kupic-ID4rdBH
+47230,Krowodrza,Kraków,2,980000.00,3,52.00,1965,18846.00,2024-07-07,https://www.otodom.pl/pl/oferta/m3-i-balkon-i-centrum-i-agh-i-sloneczne-i-ID4rqVr
+47231,Krowodrza,Kraków,2,980000.00,3,52.00,1965,18846.00,2024-07-07,https://www.otodom.pl/pl/oferta/jasne-3-pokojowe-mieszkanie-z-balkonem-krowodrza-ID4rqvS
+47232,Krowodrza,Kraków,0,540000.00,2,34.89,1965,15477.00,2024-07-07,https://www.otodom.pl/pl/oferta/rezerwacja-2-pok-mieszkanie-z-kuchnia-krowodrza-ID4ot3D
+47233,Prądnik Biały,Kraków,3,630000.00,3,44.61,1966,14122.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pok-ul-semaszki-uczelnie-na-wyciagniecie-reki-ID4rdBK
+47234,Łagiewniki-Borek Fałęcki,Kraków,3,599000.00,2,43.00,1966,13930.00,2024-07-07,https://www.otodom.pl/pl/oferta/sloneczne-2-pokojowe-43m2-borek-falecki-ID4rpkY
+32155,Grzegórzki,Kraków,0,875000.00,3,56.19,1966,15572.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-kuchnia-po-remoncie-blisko-centrum-ID4quOK
+47235,Prądnik Czerwony,Kraków,3,785000.00,3,49.50,1968,15859.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-po-remoncie-idealne-pod-inwestycje-ID4rqgi
+47236,Bieńczyce,Kraków,5,539000.00,2,36.81,1968,14643.00,2024-07-07,https://www.otodom.pl/pl/oferta/idealne-pod-wynajem-lub-dla-pary-ID4reg9
+32215,Bieńczyce,Kraków,7,415000.00,1,23.76,1969,17466.00,2024-07-07,https://www.otodom.pl/pl/oferta/krakow-osiedle-kalinowe-21-po-remoncie-kapitalnym-ID4oQbs
+47237,Bieńczyce,Kraków,2,400000.00,1,24.50,1969,16327.00,2024-07-07,https://www.otodom.pl/pl/oferta/przytulna-kawalerka-na-os-kalinowym-bienczyce-ID4rqfm
+47238,Bieńczyce,Kraków,2,400000.00,1,24.50,1969,16327.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-24-50-m-krakow-ID4rqb0
+47239,Bieżanów-Prokocim,Kraków,1,535000.00,2,36.18,1970,14787.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-na-sprzedaz-ul-okolna-36-18m2-ID4rqN0
+47240,Grzegórzki,Kraków,1,855000.00,2,49.00,1970,17449.00,2024-07-07,https://www.otodom.pl/pl/oferta/okazja-2-pokoje-49m2-balkon-grzegorzki-ul-nullo-ID4rqHv
+32330,Bieżanów-Prokocim,Kraków,1,530000.00,2,37.00,1970,14324.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-2-pokojowe-osiedle-kozlowek-37-metrow-ID4qqdU
+47241,Bieńczyce,Kraków,2,699000.00,3,46.00,1970,15196.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowoczesne-mieszkanie-3-pok-z-osobna-jasna-kuchnia-ID4rqeD
+47242,Bieżanów-Prokocim,Kraków,1,535000.00,2,36.18,1970,14787.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-36-m2-bezposrednio-okazja-ID4qZZo
+47243,Prądnik Biały,Kraków,4,620000.00,2,42.00,1970,14762.00,2024-07-07,https://www.otodom.pl/pl/oferta/krakow-krowodrza-azory-weissa-42m-2pok-piwnica-ID4rpF9
+47244,Prądnik Biały,Kraków,10,615000.00,3,44.00,1970,13977.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-z-pieknym-widokiem-ID4rpsR
+47245,Prądnik Czerwony,Kraków,4,439000.00,1,25.00,1970,17560.00,2024-07-07,https://www.otodom.pl/pl/oferta/kawalerka-25m2-olsza-po-remoncie-bezposrednio-ID4r9FK
+47246,Bronowice,Kraków,5,880000.00,3,47.00,1970,18723.00,2024-07-07,https://www.otodom.pl/pl/oferta/3m-i-do-wejscia-i-wyposazone-i-dla-rodziny-ID4rp9L
+47247,Bieżanów-Prokocim,Kraków,0,779000.00,2,52.50,1970,14838.00,2024-07-07,https://www.otodom.pl/pl/oferta/biezanow-prokocim-52-5m2-2-pokoje-z-oddzielna-kuch-ID4rneT
+32260,Bieżanów-Prokocim,Kraków,6,759000.00,3,54.50,1970,13927.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-z-kuchnia-balkon-konrada-wallenroda-59-ID4rmHs
+47248,Prądnik Biały,Kraków,3,640000.00,2,43.80,1970,14612.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-ID4rqDg
+47249,Grzegórzki,Kraków,2,1188000.00,4,70.00,1972,16971.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-4-pokojowe-idealne-dla-rodziny-ID4rgZI
+47250,Mistrzejowice,Kraków,4,765000.00,4,56.20,1972,13612.00,2024-07-07,https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-z-balkonem-os-zlotego-wieku-ID4qWYG
+32459,Grzegórzki,Kraków,3,580000.00,1,36.50,1972,15890.00,2024-07-07,https://www.otodom.pl/pl/oferta/studio-36-5-m2-aleja-pokoju-grzegorzki-ID4qTIQ
+47251,Prądnik Biały,Kraków,0,618000.00,2,39.00,1973,15846.00,2024-07-07,https://www.otodom.pl/pl/oferta/krowodrza-azory-ul-jaremy-2-pok-39m2-po-remoncie-ID4rpf5
+47252,Bieńczyce,Kraków,1,749000.00,4,57.00,1974,13140.00,2024-07-07,https://www.otodom.pl/pl/oferta/4-pokoje-z-balkonem-w-swietnej-lokalizacji-ID4rpYi
+47253,Krowodrza,Kraków,7,959000.00,3,56.92,1975,16848.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-krowodrza-ID4rpUU
+47254,Krowodrza,Kraków,4,830000.00,3,54.00,1975,15370.00,2024-07-07,https://www.otodom.pl/pl/oferta/pradnik-bialy-2-pokojowe-ID4rpUQ
+47255,Bieńczyce,Kraków,2,460000.00,2,38.00,1975,12105.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pok-38-m2-os-strusia-bienczyce-ID4rpek
+47256,Bieżanów-Prokocim,Kraków,3,695000.00,3,49.90,1976,13928.00,2024-07-07,https://www.otodom.pl/pl/oferta/rezerwacja-3-pokoje-po-remoncie-ID4qLCc
+32564,Prądnik Czerwony,Kraków,10,715000.00,3,45.30,1976,15784.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-niezalezne-pok-przy-r-mlynskim-ladny-widok-winda-ID4ra6C
+47257,Podgórze Duchackie,Kraków,8,910000.00,4,70.63,1979,12884.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-70-m-ul-luzycka-4-pokoje-2-balko-ID4rqHt
+47258,Bieżanów-Prokocim,Kraków,4,780000.00,5,60.00,1980,13000.00,2024-07-07,https://www.otodom.pl/pl/oferta/5-pokojowe-balkon-piwnica-prokocim-ID4rqSD
+47259,Prądnik Biały,Kraków,3,700000.00,3,55.00,1980,12727.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-oddzielna-kuchnia-z-agd-ok-opolskiej-ID4rqS8
+32643,Mistrzejowice,Kraków,10,699000.00,3,53.35,1980,13102.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-widokowe-mistrzejowice-do-wejscia-ID4rkyw
+32751,Czyżyny,Kraków,0,670000.00,2,53.00,1980,12642.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-z-2-niezaleznymi-pokojami-czyzyny-ID4qSEG
+47260,Bieńczyce,Kraków,3,799700.00,4,54.53,1980,14665.00,2024-07-07,https://www.otodom.pl/pl/oferta/os-kazimierzowskie-4-pokoje-aneks-54-53m2-ID4rq8L
+47261,Mistrzejowice,Kraków,10,725000.00,3,52.00,1980,13942.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-sypialnie-kuchnia-52-m2-osiedle-piastow-ID4rpOm
+47262,Bieżanów-Prokocim,Kraków,1,525000.00,2,36.00,1980,14583.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokoje-36m2-prokocim-biezanow-odswiezone-ID4rp9a
+32689,Grzegórzki,Kraków,3,499000.00,1,27.36,1980,18238.00,2024-07-07,https://www.otodom.pl/pl/oferta/kawalerka-olsza-do-zamieszkania-po-remoncie-ID4qKZs
+47263,Bieżanów-Prokocim,Kraków,1,449000.00,1,32.10,1980,13988.00,2024-07-07,https://www.otodom.pl/pl/oferta/rezerwacja-ID4r4Kc
+47264,Podgórze Duchackie,Kraków,3,930000.00,3,81.00,1982,11481.00,2024-07-07,https://www.otodom.pl/pl/oferta/przestronne-3m-i-cicha-okolica-i-zielen-ID4rqdr
+47265,Czyżyny,Kraków,3,930000.00,3,73.00,1982,12740.00,2024-07-07,https://www.otodom.pl/pl/oferta/73-m-3-pokoje-balkon-swietna-lokalizacja-ID4rpIX
+47266,Prądnik Biały,Kraków,4,820000.00,3,62.00,1983,13226.00,2024-07-07,https://www.otodom.pl/pl/oferta/pradnik-bialy-3-jasne-pokoje-j-kuchnia-balkon-mpec-ID4rk73
+47267,Czyżyny,Kraków,7,799000.00,3,59.15,1984,13508.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-59-m-na-osiedlu-2-pulku-lotniczego-ID4rqc2
+32860,Podgórze Duchackie,Kraków,4,929000.00,4,79.00,1985,11759.00,2024-07-07,https://www.otodom.pl/pl/oferta/4-pokojowy-apartament-z-2-balkonami-79m2-ID4qwTY
+47268,Podgórze,Kraków,9,612000.00,1,37.60,1985,16277.00,2024-07-07,https://www.otodom.pl/pl/oferta/plaszow-1-pokoj-widokowe-ID4rqzi
+47269,Czyżyny,Kraków,9,499000.00,1,28.33,1985,17614.00,2024-07-07,https://www.otodom.pl/pl/oferta/przytulna-kawalerka-w-swietnej-lokalizacji-ID4rq4f
+47270,Podgórze Duchackie,Kraków,0,745000.00,3,46.60,1985,15987.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-na-parterze-wola-duchacka-ID4rbrp
+32884,Prądnik Czerwony,Kraków,4,699000.00,3,54.00,1986,12944.00,2024-07-07,https://www.otodom.pl/pl/oferta/krakow-ul-strzelcow-mieszkanie-54m-z-balkonem-4p-ID4qRBO
+47271,Dębniki,Kraków,3,850000.00,3,50.00,1988,17000.00,2024-07-07,https://www.otodom.pl/pl/oferta/50m2-balkon-6m2-piwnica-6m2-mlikowskiego-ruczaj-ID4rqHF
+47272,Prądnik Czerwony,Kraków,1,780000.00,5,60.00,1990,13000.00,2024-07-07,https://www.otodom.pl/pl/oferta/5-pokojowe-balkon-piwnica-pradnik-czerwony-ID4rqSy
+47273,Nowa Huta,Kraków,2,699000.00,3,64.00,1990,10922.00,2024-07-07,https://www.otodom.pl/pl/oferta/na-sprzedaz-3-pokojowe-mieszkanie-ID4pZAM
+47274,Prądnik Biały,Kraków,7,1060000.00,3,73.00,1992,14521.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-pradnik-bialy-ul-szafirowa-ID4rqF3
+47275,Zwierzyniec,Kraków,1,790000.00,2,52.00,1992,15192.00,2024-07-07,https://www.otodom.pl/pl/oferta/krolowej-jadwigi-2-pokoje-taras-ID4rpgT
+47276,Bronowice,Kraków,3,1049000.00,4,75.00,1998,13987.00,2024-07-07,https://www.otodom.pl/pl/oferta/czteropokojowe-mieszkanie-z-balkonem-bronowice-ID4rb3Z
+47277,Podgórze Duchackie,Kraków,1,700000.00,3,66.30,1999,10558.00,2024-07-07,https://www.otodom.pl/pl/oferta/ul-stojalowskiego-piwnica-8-5m2-m-postojowe-ID4pPch
+47278,Podgórze Duchackie,Kraków,1,730000.00,3,66.30,1999,11011.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-sypialnie-osobna-kuchnia-balkon-piwnica-ID4rpgC
+47279,Prądnik Czerwony,Kraków,10,539000.00,2,45.00,2000,11978.00,2024-07-07,https://www.otodom.pl/pl/oferta/bezposredno-sprzedam-mieszkanie-widokowe-2000r-ID4rq1r
+47280,Zwierzyniec,Kraków,1,1360000.00,3,76.40,2000,17801.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-3-pokoje-76m2-garaz-wola-justowska-ID4rp8w
+47281,Prądnik Czerwony,Kraków,0,471000.00,2,31.60,2000,14905.00,2024-07-07,https://www.otodom.pl/pl/oferta/bezczynszowe-2-pok-obok-mogilskiej-wieczysta-ID4rqfa
+33131,Bronowice,Kraków,3,610000.00,1,35.00,2000,17429.00,2024-07-07,https://www.otodom.pl/pl/oferta/krakow-ul-rydla-2pok-balkon-parking-do-wejscia-ID4rd44
+47282,Bronowice,Kraków,0,559000.00,2,40.00,2001,13975.00,2024-07-07,https://www.otodom.pl/pl/oferta/dwupokojowe-mieszkanie-cena-do-negocjacji-ID4qw3q
+47283,Dębniki,Kraków,3,1195000.00,4,75.72,2001,15782.00,2024-07-07,https://www.otodom.pl/pl/oferta/ostatnie-pietro-ze-slonecznym-tarasem-ID4rq1L
+47284,Czyżyny,Kraków,3,1327000.00,3,80.60,2001,16464.00,2024-07-07,https://www.otodom.pl/pl/oferta/dwupoziomowe-mieszkanie-na-sprzedaz-dywizjonu-303-ID4rpX2
+33167,Dębniki,Kraków,2,330000.00,3,49.00,2001,6735.00,2024-07-07,https://www.otodom.pl/pl/oferta/pychowice-49m-blisko-parku-bielansko-tyniecki-ID4r06V
+47285,Dębniki,Kraków,3,850000.00,2,50.00,2002,17000.00,2024-07-07,https://www.otodom.pl/pl/oferta/piekne-2m-i-parking-i-kom-lokatorska-ID4rpag
+33254,Prądnik Biały,Kraków,1,605000.00,2,35.69,2003,16952.00,2024-07-07,https://www.otodom.pl/pl/oferta/przytulne-m2-36m2-garaz-piwnica-bez-posrednikow-ID4rcuS
+47286,Prądnik Biały,Kraków,3,700000.00,2,50.38,2003,13894.00,2024-07-07,https://www.otodom.pl/pl/oferta/50-m2-z-balkonem-zabiniec-ulica-solskiego-ID4rpQr
+47287,Nowa Huta,Kraków,2,530000.00,2,36.50,2003,14521.00,2024-07-07,https://www.otodom.pl/pl/oferta/krakow-nowa-huta-ul-klasztorna-36-5-m-ID4rpwo
+47288,Bieżanów-Prokocim,Kraków,2,835000.00,3,78.00,2003,10705.00,2024-07-07,https://www.otodom.pl/pl/oferta/rezerwacja-3-pokoje-78-m2-petla-tramwajowa-ID4qEUB
+47289,Prądnik Biały,Kraków,9,1250000.00,2,64.00,2004,19531.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-krakow-krowodrza-ID4rpSX
+47290,Prądnik Biały,Kraków,0,779000.00,2,46.00,2004,16935.00,2024-07-07,https://www.otodom.pl/pl/oferta/dwa-niezalezne-pokoje-i-ogrodek-ul-radzikowskiego-ID4rpL0
+33314,Swoszowice,Kraków,1,719899.96,3,60.20,2004,11958.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-do-wejscia-przestronne-do-wprowadzenia-ID4pyrp
+47291,Podgórze Duchackie,Kraków,3,999000.00,3,67.80,2005,14735.00,2024-07-07,https://www.otodom.pl/pl/oferta/obok-parku-3-pokojowe-wysoki-standard-bez-prowizji-ID4rpBD
+47292,Prądnik Biały,Kraków,3,820000.00,2,51.50,2005,15922.00,2024-07-07,https://www.otodom.pl/pl/oferta/inwestycyjna-okazja-obok-nowego-kleparzu-promocja-ID4rpxE
+47293,Dębniki,Kraków,5,1590000.00,3,86.00,2006,18488.00,2024-07-07,https://www.otodom.pl/pl/oferta/luksusowe-mieszkanie-konopczynskiego-17-ID4rqRv
+47294,Prądnik Biały,Kraków,2,1200000.00,4,98.00,2006,12245.00,2024-07-07,https://www.otodom.pl/pl/oferta/nieruchomosc-w-domu-szeregowym-krakow-ID4rqPz
+47295,Dębniki,Kraków,0,870000.00,3,65.42,2006,13299.00,2024-07-07,https://www.otodom.pl/pl/oferta/ruczaj-3-pokoje-ogrodek-ID4rqvJ
+47296,Dębniki,Kraków,0,570000.00,1,31.71,2007,17975.00,2024-07-07,https://www.otodom.pl/pl/oferta/wysoki-standard-ogrodek-piltza-brak-prowizji-ID4rdcC
+47297,Dębniki,Kraków,0,570000.00,1,32.00,2007,17813.00,2024-07-07,https://www.otodom.pl/pl/oferta/m1-wysoki-standard-os-europejskie-ID4rpLB
+47298,Grzegórzki,Kraków,3,1500000.00,5,80.00,2007,18750.00,2024-07-07,https://www.otodom.pl/pl/oferta/80m-w-centrum-miasta-z-pieknym-ogrodem-ID4quDD
+47299,Bronowice,Kraków,9,623000.00,1,31.50,2008,19778.00,2024-07-07,https://www.otodom.pl/pl/oferta/bronowice-stanczyka-wygodna-jasna-kawalerka-ID4rqUl
+47300,Łagiewniki-Borek Fałęcki,Kraków,2,749000.00,3,55.98,2008,13380.00,2024-07-07,https://www.otodom.pl/pl/oferta/bez-prowizji-mieszkanie-2-1-pokoi-borek-falecki-ID4rqQy
+47301,Podgórze Duchackie,Kraków,0,649000.00,2,40.50,2008,16025.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-40-5m2-z-ogrodkiem-i-miejscem-postojowy-ID4otEb
+47302,Prądnik Biały,Kraków,1,764000.00,2,51.00,2008,14980.00,2024-07-07,https://www.otodom.pl/pl/oferta/bronowice-radzikowskiego-51m2-garaz-nowe-bud-ID4rqiI
+47303,Prądnik Biały,Kraków,1,759000.00,2,51.00,2008,14882.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokoje-z-oddzielna-kuchnia-i-13-m2-garaz-okazja-ID4rpmp
+47304,Prądnik Biały,Kraków,1,764000.00,2,51.00,2008,14980.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-przy-ulicy-radzikowskiego-ID4rpJ0
+47305,Grzegórzki,Kraków,2,1080000.00,3,70.20,2008,15385.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-m-na-cystersow-ID4rpsV
+47306,Prądnik Biały,Kraków,1,759000.00,3,51.00,2008,14882.00,2024-07-07,https://www.otodom.pl/pl/oferta/duze-mieszkanie-w-nowym-bloku-z-13-m2-garazem-ID4rpp4
+47307,Prądnik Biały,Kraków,1,764000.00,2,51.00,2008,14980.00,2024-07-07,https://www.otodom.pl/pl/oferta/bronowice-2-pokoje-taras-ID4rph0
+47308,Dębniki,Kraków,3,1210000.00,4,100.00,2008,12100.00,2024-07-07,https://www.otodom.pl/pl/oferta/blisko-zakrzowka-ID4qP4x
+47309,Dębniki,Kraków,2,790000.00,2,52.67,2009,14999.00,2024-07-07,https://www.otodom.pl/pl/oferta/ruczaj-czerw-maki-luksusowe-53m-plus-m-postojowe-ID4rdBG
+47310,Bieńczyce,Kraków,2,632000.00,2,39.10,2009,16164.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-dwupokojowe-39-1-m2-ul-okulickiego-k-ow-ID4rqY8
+47311,Dębniki,Kraków,6,680000.00,2,34.00,2009,20000.00,2024-07-07,https://www.otodom.pl/pl/oferta/m2-kapelanka-widok-hit-ID4rpSE
+47312,Prądnik Czerwony,Kraków,2,1095000.00,3,69.10,2009,15847.00,2024-07-07,https://www.otodom.pl/pl/oferta/sloneczne-mieszkanie-3-pok-ul-dobrego-pasterza-ID4qWrb
+47313,Stare Miasto,Kraków,2,795000.00,1,29.00,2009,27414.00,2024-07-07,https://www.otodom.pl/pl/oferta/angel-city-studio-29m2-doskonala-inwestycja-ID4rpK7
+33560,Prądnik Biały,Kraków,1,940000.00,3,66.69,2009,14095.00,2024-07-07,https://www.otodom.pl/pl/oferta/67-m2-3-pokoje-kuchnia-lazienka-z-wc-drugie-wc-ID4qFX1
+47314,Stare Miasto,Kraków,6,819000.00,1,29.00,2009,28241.00,2024-07-07,https://www.otodom.pl/pl/oferta/angel-city-29m-taras-20m-parking-stare-miasto-ID4pIzA
+47315,Prądnik Biały,Kraków,0,1450000.00,4,110.43,2010,13130.00,2024-07-07,https://www.otodom.pl/pl/oferta/rewelacyjne-mieszkanie-ogrodek-super-lokalizacja-ID4rqyF
+47316,Podgórze,Kraków,3,720000.00,2,49.02,2010,14688.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-przewoz-ID4rpRf
+47317,Bieńczyce,Kraków,3,730000.00,2,46.30,2010,15767.00,2024-07-07,https://www.otodom.pl/pl/oferta/2pok-mieszkanie-z-garazem-i-piwnica-na-okulickiego-ID4rp2I
+47318,Prądnik Biały,Kraków,2,955000.00,3,67.10,2011,14232.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-z-balkonem-pradnik-bialy-ID4rqvU
+47319,Czyżyny,Kraków,0,695000.00,2,38.92,2012,17857.00,2024-07-07,https://www.otodom.pl/pl/oferta/czyzyny-39-m2-z-miejscem-parkingowym-i-ogrodkiem-ID4rqiZ
+47320,Czyżyny,Kraków,0,695000.00,2,39.00,2012,17821.00,2024-07-07,https://www.otodom.pl/pl/oferta/2m-ogrodek-wysoki-sufit-al-pokoju-ID4rqPx
+47321,Czyżyny,Kraków,0,695000.00,2,38.92,2012,17857.00,2024-07-07,https://www.otodom.pl/pl/oferta/dwupokojowe-mieszkanie-z-ogrodkiem-czyzyny-ID4rppN
+33784,Prądnik Czerwony,Kraków,5,651000.00,1,27.00,2012,24111.00,2024-07-07,https://www.otodom.pl/pl/oferta/jasne-komfortowe-mieszkanie-z-duza-loggia-ID4r2zB
+47322,Prądnik Biały,Kraków,3,868000.00,3,62.00,2012,14000.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokoje-i-2-balkony-i-klimatyzacja-im-postojowe-ID4rfCx
+47323,Prądnik Czerwony,Kraków,1,990000.00,3,62.00,2013,15968.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-ul-sliczna-3-pokojowe-ID4rqKM
+47324,Podgórze,Kraków,1,1150000.00,4,71.71,2013,16037.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-4-pok-dwustronne-71-71m2-wielicka-44-ID4qnna
+47325,Dębniki,Kraków,0,1710000.00,3,76.00,2013,22500.00,2024-07-07,https://www.otodom.pl/pl/oferta/sprzedam-mieszkanie-76m-ruczaj-ul-piltza-ID4rqUW
+47326,Podgórze,Kraków,3,799000.00,2,49.00,2013,16306.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokoje-mysliwska-49-m2-do-wejscia-ID4rpnZ
+47327,Krowodrza,Kraków,3,950000.00,2,36.50,2014,26027.00,2024-07-07,https://www.otodom.pl/pl/oferta/swietne-mieszkanie-w-prestizowej-lokalizacji-ID4qaTQ
+47328,Podgórze,Kraków,0,1250000.00,4,54.01,2014,23144.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-z-ogrodkiem-nadwislanska-11-ID4roVT
+47329,Mistrzejowice,Kraków,0,1434000.00,4,93.75,2014,15296.00,2024-07-07,https://www.otodom.pl/pl/oferta/94m2-4pok-taras-serenada-wnet-tramwaj-2014r-ID4rpJ2
+47330,Podgórze,Kraków,3,799000.00,2,49.09,2014,16276.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-krakow-plaszow-ID4rqMV
+47331,Bieżanów-Prokocim,Kraków,0,620000.00,2,33.00,2014,18788.00,2024-07-07,https://www.otodom.pl/pl/oferta/2-pokojowe-z-ogrodkiem-doskonala-inwestycja-ID4rq9j
+47332,Dębniki,Kraków,0,570000.00,1,31.71,2014,17975.00,2024-07-07,https://www.otodom.pl/pl/oferta/salon-kuchnia-31-71-m2-ogrod-25m2-ul-piltza-ID4rq0h
+47333,Prądnik Biały,Kraków,2,799000.00,2,49.06,2015,16286.00,2024-07-07,https://www.otodom.pl/pl/oferta/klimatyzowane-wykonczone-z-balkonem-i-komorka-ID4rqVX
+47334,Podgórze,Kraków,1,515000.00,1,31.89,2015,16149.00,2024-07-07,https://www.otodom.pl/pl/oferta/odswiezona-kawalerka-i-pietro-2015-rok-ID4rqaB
+47335,Stare Miasto,Kraków,1,875000.00,1,29.00,2015,30172.00,2024-07-07,https://www.otodom.pl/pl/oferta/anegl-city-inwestycyjna-kawalerka-w-centrum-ID4rpQf
+33981,Podgórze Duchackie,Kraków,1,999500.00,3,67.15,2015,14885.00,2024-07-07,https://www.otodom.pl/pl/oferta/3pokoje-garaz-taras-winda-wyposazone-do-wejscia-ID4qxup
+47336,Prądnik Biały,Kraków,1,1250000.00,3,72.00,2015,17361.00,2024-07-07,https://www.otodom.pl/pl/oferta/3-pokojowe-sloneczne-72m2-ul-stawowa-bronowice-ID4r1h6
+34033,Prądnik Czerwony,Kraków,1,730000.00,2,51.00,2015,14314.00,2024-07-07,https://www.otodom.pl/pl/oferta/pradnik-czerwony-atrakcyjna-oferta-ID4qWPh
+47337,Bieżanów-Prokocim,Kraków,1,525000.00,1,26.43,2016,19864.00,2024-07-07,https://www.otodom.pl/pl/oferta/przytulna-kawalerka-26-43-m2-loggia-4-63-m-ID4rq5X
+47338,Prądnik Czerwony,Kraków,2,504000.00,1,28.00,2016,18000.00,2024-07-07,https://www.otodom.pl/pl/oferta/mieszkanie-28-m-krakow-ID4rpCI
+34066,Prądnik Biały,Kraków,4,880000.00,2,55.40,2016,15884.00,2024-07-07,https://www.otodom.pl/pl/oferta/azory-odswiezone-55-4-m-2-pok-m-garazowe-ID4pSBU
+34138,Podgórze,Kraków,5,1287000.00,3,66.00,2016,19500.00,2024-07-07,https://www.otodom.pl/pl/oferta/nowoczesne-mieszkanie-66-m2-ul-t-szafrana-ID4qgXt
+47339,Stare Miasto,Kraków,2,1050000.00,2,40.28,2016,26068.00,2024-07-07,https://www.otodom.pl/pl/oferta/stare-miasto-rakowicka-2-pok-eng-ua-ID4lMne
