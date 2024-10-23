@@ -5,10 +5,15 @@ class TrainingJob(models.Model):
     end_time = models.DateTimeField(null=True, blank=True)
     status = models.CharField(
         max_length=20,
-        choices=[('pending', 'Pending'), ('in_progress', 'In Progress'), ('completed', 'Completed'), ('failed', 'Failed')],
+        choices=[
+            ('pending', 'Pending'),
+            ('in_progress', 'In Progress'),
+            ('completed', 'Completed'),
+            ('failed', 'Failed')
+        ],
         default='pending'
     )
-    data_period = models.DateField()
+    data_period = models.DateField(unique=True)
     output_model = models.FileField(upload_to='models/', null=True, blank=True)
 
     def __str__(self):
