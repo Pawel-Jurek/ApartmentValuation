@@ -12,11 +12,11 @@ from sklearn.metrics import r2_score
 from sklearn.model_selection import train_test_split
 
 
-def create_data_file(data_period):
+def create_data_file(data_period, status):
     csv_filename = f"apartments_{data_period}.csv"
     csv_filepath = os.path.join(settings.BASE_DIR, 'media', 'training_data', csv_filename)
 
-    if not os.path.exists(csv_filepath):
+    if status != "completed":
         query = """
             SELECT 
                 id, district, city, floor, price, rooms, sq, year, price_per_sq, update_date, offer_url
@@ -56,9 +56,9 @@ def add_weighted_features(X, correlation, X_columns):
         return np.concatenate((X, weighted_features), axis=1)
 
 
-def train_model(data_period):
+def train_model(data_period, status):
     
-    data = pd.read_csv(create_data_file(data_period), encoding = "utf-8")
+    data = pd.read_csv(create_data_file(data_period, status), encoding = "utf-8")
     data = remove_outliers(data)
 
     dummies = pd.get_dummies(data.city)
