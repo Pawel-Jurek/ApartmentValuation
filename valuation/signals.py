@@ -6,9 +6,9 @@ from training.models import TrainingJob
 @receiver(post_save, sender=Apartment)
 def create_training_job(sender, instance, created, **kwargs):
     if created:
-        if not TrainingJob.objects.filter(data_period=instance.updated_at.date()).exists():
+        if not TrainingJob.objects.filter(data_period=instance.update_date).exists():
             TrainingJob.objects.create(
-                data_period=instance.updated_at.date(),
+                data_period=instance.update_date.date(),
                 start_time=None,  
                 end_time=None
             )

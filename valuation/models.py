@@ -11,7 +11,7 @@ class Apartment(models.Model):
     year = models.IntegerField()
     price_per_sq = models.DecimalField(max_digits=10, decimal_places=2)
     update_date = models.DateField(default=datetime.date.today)
-    offer_url = models.URLField(unique=True, null=True, blank=True)
+    offer_url = models.URLField(null=True, blank=True)
     
     def __str__(self):
         return f'{self.city}: {self.district} price: {self.price}'
