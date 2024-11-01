@@ -10,6 +10,7 @@ from keras.layers import Input, Dense
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import r2_score
 from sklearn.model_selection import train_test_split
+import pickle
 
 
 def create_data_file(data_period, status):
@@ -66,7 +67,7 @@ def train_model(data_period, status):
     dummies = pd.get_dummies(data.district)
     prepared_df = pd.concat([prepared_df,dummies],axis='columns')
 
-
+    prepared_df.columns = prepared_df.columns.str.lower()
     data_to_corr = prepared_df.drop(["district", "update_date", "city", "offer_url", "price_per_sq"], axis='columns')
     X = prepared_df.drop(['price', "district", "update_date", "city", "offer_url", "price_per_sq"], axis='columns')
     X_columns = X.columns
@@ -101,7 +102,7 @@ def train_model(data_period, status):
         restore_best_weights=True
     )
 
-    best_model_path = f"training/ai_models/model{data_period}.keras"
+    best_model_path = f"{settings.BASE_DIR}/media/training_results/ai_models/model{data_period}.keras"
 
     model_checkpoint = ModelCheckpoint(
         best_model_path, 
@@ -145,5 +146,23 @@ def train_model(data_period, status):
         'data_columns': [col.lower() for col in X_columns]
     }
     
-    with open('training/ai_models/columns.json', 'w') as f:
+
+    columns_path = f'{settings.BASE_DIR}/media/training_results/columns'
+    scalers_path = f'{settings.BASE_DIR}/media/training_results/scalers'
+    correlations_path = f'{settings.BASE_DIR}/media/training_results/correlations'
+
+    os.makedirs(columns_path, exist_ok=True)
+    os.makedirs(scalers_path, exist_ok=True)
+    os.makedirs(correlations_path, exist_ok=True)
+
+    with open(f'{columns_path}/columns{data_period}.json', 'w') as f:
         f.write(json.dumps(columns))
+
+    with open(f'{scalers_path}/scaler{data_period}.pkl', 'wb') as f:
+        pickle.dump(scaler, f)
+
+    with open(f'{correlations_path}/correlation{data_period}.pkl', 'wb') as f:
+        pickle.dump(correlation, f)
+
+
+

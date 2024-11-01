@@ -188,10 +188,10 @@ def import_apartments():
     ]
 
     current_year = datetime.datetime.now().year
-    years = list(range(2024, current_year + 1))
+    years = list(range(1900, current_year + 1))
 
     try:
-        for base_url in base_urls[2:]:
+        for base_url in base_urls:
             scrape_apartments(base_url, years)
         return ['success']
     except Exception as e:
