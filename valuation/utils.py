@@ -7,6 +7,10 @@ import random
 import sys
 from datetime import datetime
 import pandas as pd
+
+import os
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
 from tensorflow.keras.models import load_model
 from django.utils import timezone
 
@@ -82,22 +86,18 @@ def predict_future_price(city, district, floor, rooms, sq, year, looking_year, l
 
     predictions = {}
     training_dates = []
-
-    # Przechowywanie przewidywań dla każdego modelu (rok, miesiąc)
+    
     for model in ValuationModel.objects.all():
         date = (model.data_period.year, model.data_period.month)
         training_dates.append(date)
         lower_pred, upper_pred = predict_actual_price(city, district, floor, rooms, sq, year, model)
         predictions[date] = (lower_pred, upper_pred)
     
-    # Sortowanie dat
     sorted_dates = sorted(training_dates, key=lambda x: (x[0], x[1]))
-
-    # Obliczanie zmian procentowych między kolejnymi miesiącami
-    total_change_lower = 0
-    total_change_upper = 0
-    total_years = 0
-
+    predictions[(today_year, today_month)] = predictions.pop(sorted_dates[-1])
+    sorted_dates[-1] = (today_year, today_month)
+    
+    total_change_lower, total_change_upper, total_years = 0, 0, 0
     for i in range(1, len(sorted_dates)):
         prev_year, prev_month = sorted_dates[i - 1]
         current_year, current_month = sorted_dates[i]
@@ -105,19 +105,15 @@ def predict_future_price(city, district, floor, rooms, sq, year, looking_year, l
         prev_lower, prev_upper = predictions[(prev_year, prev_month)]
         current_lower, current_upper = predictions[(current_year, current_month)]
         
-        # Obliczenie zmian procentowych dla dolnej i górnej prognozy
-        change_lower = (current_lower - prev_lower) / prev_lower
-        change_upper = (current_upper - prev_upper) / prev_upper
+        change_lower = (current_lower - prev_lower) / prev_lower if prev_lower else 0
+        change_upper = (current_upper - prev_upper) / prev_upper if prev_upper else 0
         
-        # Czas między okresami
         year_diff = (current_year - prev_year) + (current_month - prev_month) / 12.0
         
-        # Sumowanie zmian, uwzględniając rok
         total_change_lower += change_lower / year_diff
         total_change_upper += change_upper / year_diff
-        total_years += 1 / year_diff
+        total_years += year_diff
 
-    # Średnia zmiana roczna
     if total_years > 0:
         annual_change_rate_lower = total_change_lower / total_years
         annual_change_rate_upper = total_change_upper / total_years
@@ -125,20 +121,17 @@ def predict_future_price(city, district, floor, rooms, sq, year, looking_year, l
     else:
         average_annual_change_rate = 0
     
-    # Różnica czasu do docelowej daty
     looking_year_diff = (looking_year - today_year) + (looking_month - today_month) / 12.0
     
-    # Obliczenie przyszłej ceny na podstawie bieżącej prognozy i uśrednionej zmiany rocznej
     current_lower, current_upper = predictions[(today_year, today_month)]
     future_lower_price = current_lower * (1 + average_annual_change_rate * looking_year_diff)
     future_upper_price = current_upper * (1 + average_annual_change_rate * looking_year_diff)
 
-    # Procentowa zmiana uśredniona względem bieżącego okresu
     current_average_price = (current_lower + current_upper) / 2
     future_average_price = (future_lower_price + future_upper_price) / 2
-    change_percentage_average = (future_average_price - current_average_price) / current_average_price * 100
+    change_percentage_average = (future_average_price - current_average_price) / current_average_price * 100 if current_average_price else 0
     
-    return (future_lower_price, future_upper_price), change_percentage_average
+    return (future_lower_price, future_upper_price, change_percentage_average)
 
 
 def get_addresses(city):
@@ -162,42 +155,27 @@ def predict_actual_price(city, district, floor, rooms, sq, year, own_model = Non
     with open(val_model.correlation_file_path, 'rb') as f:
         correlation = pickle.load(f)
 
-    # Przygotowanie wektora cech
     x = np.zeros(len(X_columns))
 
-    # Sprawdzenie istnienia kolumn przed przypisaniem wartości
     if 'floor' in X_columns:
-        floor_idx = np.where(X_columns == 'floor')[0]
-        if len(floor_idx) > 0:
-            x[floor_idx[0]] = floor
-
+        floor_index = X_columns.index('floor')
+        x[floor_index] = floor
     if 'rooms' in X_columns:
-        rooms_idx = np.where(X_columns == 'rooms')[0]
-        if len(rooms_idx) > 0:
-            x[rooms_idx[0]] = rooms
-
+        rooms_index = X_columns.index('rooms')
+        x[rooms_index] = rooms
     if 'sq' in X_columns:
-        sq_idx = np.where(X_columns == 'sq')[0]
-        if len(sq_idx) > 0:
-            x[sq_idx[0]] = sq
-
+        sq_index = X_columns.index('sq')
+        x[sq_index] = sq
     if 'year' in X_columns:
-        year_idx = np.where(X_columns == 'year')[0]
-        if len(year_idx) > 0:
-            x[year_idx[0]] = year
-
-    # Obsługa miasta i dzielnicy
+        year_index = X_columns.index('year')
+        x[year_index] = year
     if city in X_columns:
-        city_index = np.where(X_columns == city)[0]
-        if len(city_index) > 0:
-            x[city_index[0]] = 1
-
+        city_index = X_columns.index(city)
+        x[city_index] = 1
     if district in X_columns:
-        district_index = np.where(X_columns == district)[0]
-        if len(district_index) > 0:
-            x[district_index[0]] = 1
+        district_index = X_columns.index(district)
+        x[district_index] = 1
 
-    # Utworzenie DataFrame z wektora cech
     x_df = pd.DataFrame([x], columns=X_columns)
     
     x_scaled = scaler.transform(x_df)
