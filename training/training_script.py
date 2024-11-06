@@ -52,9 +52,9 @@ def remove_outliers(df):
 
 
 def add_weighted_features(X, correlation, X_columns):
-        weights = np.array([correlation.get(col, 1) for col in X_columns])
-        weighted_features = X * weights
-        return np.concatenate((X, weighted_features), axis=1)
+    weights = np.array([correlation.get(col, 1) for col in X_columns])
+    weighted_features = X * weights
+    return np.concatenate((X, weighted_features), axis=1)
 
 
 def train_model(data_period, status):
@@ -68,11 +68,11 @@ def train_model(data_period, status):
     prepared_df = pd.concat([prepared_df,dummies],axis='columns')
 
     prepared_df.columns = prepared_df.columns.str.lower()
-    data_to_corr = prepared_df.drop(["district", "update_date", "city", "offer_url", "price_per_sq"], axis='columns')
-    X = prepared_df.drop(['price', "district", "update_date", "city", "offer_url", "price_per_sq"], axis='columns')
+    data_to_corr = prepared_df.drop(["id", "district", "update_date", "city", "offer_url", "price_per_sq"], axis='columns')
+    X = prepared_df.drop(["id", 'price', "district", "update_date", "city", "offer_url", "price_per_sq"], axis='columns')
     X_columns = X.columns
     y = prepared_df.price
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=10)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     scaler = StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
