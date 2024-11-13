@@ -30,8 +30,8 @@ def get_home_data(request):
 @csrf_exempt
 @api_view(['POST'])
 def valuation(request):
-    # if not request.user.is_authenticated:
-    #     return JsonResponse({'error': 'Authentication required'}, status=403)
+    if not request.user.is_authenticated:
+        return JsonResponse({'error': 'Authentication required'}, status=403)
         
     data = json.loads(request.body)
     if data:
@@ -62,19 +62,20 @@ def valuation(request):
         else:
             lower_price, upper_price, percent = predict_future_price(city, district, floor, rooms, sq, year, prediction_year, prediction_month) 
 
-        # search = ApartmentSearch.objects.create(
-        #     user=request.user,
-        #     city=city,
-        #     district=district,
-        #     floor=floor,
-        #     rooms=rooms,
-        #     square_meters=sq,
-        #     year=year,
-        #     suggested_price_min=lower_price,
-        #     suggested_price_max=upper_price,
-        #     prediction_year=prediction_year,
-        #     prediction_month=prediction_month
-        # )
+        search = ApartmentSearch.objects.create(
+            user=request.user,
+            city=city,
+            district=district,
+            floor=floor,
+            rooms=rooms,
+            square_meters=sq,
+            year=year,
+            suggested_price_min=lower_price,
+            suggested_price_max=upper_price,
+            prediction_year=prediction_year,
+            prediction_month=prediction_month,
+            percent = percent
+        )
 
         return JsonResponse({'price': {'lower': lower_price, 'upper': upper_price}, 'percent': percent}, status=200)
     else:
