@@ -144,15 +144,16 @@ def predict_actual_price(city, district, floor, rooms, sq, year, own_model = Non
     else:
         today = timezone.now().date()
         val_model = ValuationModel.objects.filter(data_period__lte=today).order_by('-data_period').first()
-    with open(val_model.columns_file_path, 'r') as f:
+
+    with open(os.path.normpath(val_model.columns_file_path).replace('\\\\','\\'), 'r') as f:
         X_columns = json.load(f)['data_columns']
 
-    model = load_model(val_model.model_file_path)
+    model = load_model(os.path.normpath(val_model.model_file_path))
 
-    with open(val_model.scaler_file_path, 'rb') as f:
+    with open(os.path.normpath(val_model.scaler_file_path), 'rb') as f:
         scaler = pickle.load(f)
 
-    with open(val_model.correlation_file_path, 'rb') as f:
+    with open(os.path.normpath(val_model.correlation_file_path), 'rb') as f:
         correlation = pickle.load(f)
 
     x = np.zeros(len(X_columns))

@@ -102,9 +102,9 @@ const Account = () => {
           },
         }
       );
-  
+      console.log(response)
       toast.success("Prediction successful!"); 
-      window.location.reload(); 
+      //window.location.reload(); 
   
     } catch (error) {
       console.error('Error predicting price:', error);
@@ -339,7 +339,7 @@ const Account = () => {
     <div className='w-2/3 border-l p-8'>
     {history.map(record => {
         const isLatestRecord = new Date(record.search_date).getTime() === latestSearchDate;
-
+        console.log(record)
         return (
           <div
             key={record.id}
@@ -412,8 +412,8 @@ const Account = () => {
                                 />
                               </div>
                               <div className="mt-2 flex w-full justify-between">
-                                <span className="text-sm text-gray-600">{record.suggested_price_min} zł</span>
-                                <span className="text-sm text-gray-600">{record.suggested_price_max} zł</span>
+                                <span className="text-sm text-gray-600">{record.suggested_price_min.toLocaleString('pl-PL')} zł</span>
+                                <span className="text-sm text-gray-600">{record.suggested_price_max.toLocaleString('pl-PL')} zł</span>
                               </div>
                             </div>
                           </div>
