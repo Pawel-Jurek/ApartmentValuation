@@ -39,7 +39,7 @@ class ApartmentSearchSerializer(serializers.ModelSerializer):
         fields = [
             'id', 'user', 'city', 'district', 'floor', 'rooms', 'square_meters',
             'year', 'suggested_price_min', 'suggested_price_max', 'search_date',
-            'prediction_year', 'prediction_quartal'
+            'prediction_year', 'prediction_month', 'percent'
         ]
         read_only_fields = ('user', 'search_date')
 

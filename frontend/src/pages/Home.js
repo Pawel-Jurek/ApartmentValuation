@@ -22,15 +22,19 @@ const Home = () => {
   };
 
   const [data, setData] = React.useState([]);
-
   useEffect(() => {
-    axios.get('http://localhost:8000/valuation/get-home-data/').then((response) => {
-      setData(response.data);
-    });
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('http://localhost:8000/valuation/get-home-data/');
+        setData(response.data);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
 
-  }
-  , []);
-
+    fetchData();
+  }, []);
+  
 
   return (
     <>
