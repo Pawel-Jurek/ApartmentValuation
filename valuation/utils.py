@@ -1,5 +1,6 @@
 from math import ceil
 import os
+from django.conf import settings
 import numpy as np
 import json
 import pickle
@@ -145,15 +146,15 @@ def predict_actual_price(city, district, floor, rooms, sq, year, own_model = Non
         today = timezone.now().date()
         val_model = ValuationModel.objects.filter(data_period__lte=today).order_by('-data_period').first()
 
-    with open(os.path.normpath(val_model.columns_file_path).replace('\\\\','\\'), 'r') as f:
+    with open(os.path.join(settings.MEDIA_ROOT, r"training_results\columns\{}".format(val_model.columns_file_name)), 'r') as f:
         X_columns = json.load(f)['data_columns']
 
-    model = load_model(os.path.normpath(val_model.model_file_path))
+    model = load_model(os.path.join(settings.MEDIA_ROOT, r"training_results\ai_models\{}".format(val_model.model_file_name)))
 
-    with open(os.path.normpath(val_model.scaler_file_path), 'rb') as f:
+    with open(os.path.join(settings.MEDIA_ROOT, r"training_results\scalers\{}".format(val_model.scaler_file_name)), 'rb') as f:
         scaler = pickle.load(f)
 
-    with open(os.path.normpath(val_model.correlation_file_path), 'rb') as f:
+    with open(os.path.join(settings.MEDIA_ROOT, r"training_results\correlations\{}".format(val_model.correlation_file_name)), 'rb') as f:
         correlation = pickle.load(f)
 
     x = np.zeros(len(X_columns))
