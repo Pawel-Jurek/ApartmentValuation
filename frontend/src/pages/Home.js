@@ -1,10 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import Img from '../assets/bck.jpg';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 import { AuthData } from '../auth/AuthWrapper';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import axiosInstance from '../auth/axiosSetup';
 
 const Home = () => {
 
@@ -25,7 +24,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/valuation/get-home-data/');
+        const response = await axiosInstance.get('http://localhost:8000/valuation/get-home-data/');
         setData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);

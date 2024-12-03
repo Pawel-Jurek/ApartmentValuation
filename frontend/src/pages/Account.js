@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import axios from 'axios';
+import axiosInstance from '../auth/axiosSetup';
 import { AuthData } from '../auth/AuthWrapper';
 import { toast } from "react-toastify";
 
@@ -24,7 +24,7 @@ const Account = () => {
   const [history, setHistory] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8000/users/searches/', {
+    axiosInstance.get('http://localhost:8000/users/searches/', {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
       },
@@ -72,10 +72,20 @@ const Account = () => {
       toast.error("Year of construction must be between 1900 and the current year.", { position: 'top-left' });
       return;
     }
-    if (prediction_year < new Date().getFullYear() || prediction_year > new Date().getFullYear() + 100) {
-      toast.error("Prediction year must be between 1900 and 2070.", { position: 'top-left' });
+  
+    const currentYear = new Date().getFullYear();
+    const currentMonth = new Date().getMonth() + 1; 
+  
+    if (prediction_year < currentYear || prediction_year > currentYear + 1000) {
+      toast.error("Prediction year must be between the current year and 1000 years later.", { position: 'top-left' });
       return;
     }
+  
+    if (prediction_year === currentYear && prediction_month < currentMonth) {
+      toast.error("Prediction month must be the current month or later in the current year.", { position: 'top-left' });
+      return;
+    }
+  
     if (prediction_month < 1 || prediction_month > 12) {
       toast.error("Prediction month must be between 1 and 12.", { position: 'top-left' });
       return;
@@ -84,7 +94,7 @@ const Account = () => {
     setErrorMessage("");
   
     try {
-      const response = await axios.post(
+      const response = await axiosInstance.post(
         'http://localhost:8000/valuation/', 
         { 
           sq: square,
@@ -104,7 +114,7 @@ const Account = () => {
       );
       console.log(response)
       toast.success("Prediction successful!"); 
-      //window.location.reload(); 
+      window.location.reload(); 
   
     } catch (error) {
       console.error('Error predicting price:', error);
@@ -124,7 +134,12 @@ const Account = () => {
       let newValue = prevForm[field] + 1;
   
       if (field === "prediction_month" && newValue > 12) newValue = 12;
-      if (field === "prediction_year" && newValue > 2070) newValue = 2070;
+      if (field === "prediction_year" && newValue > currentYear + 1000) newValue = currentYear + 1000;
+      if (field === "prediction_year" && newValue === currentYear) {
+        if (prevForm.prediction_month < currentMonth) {
+          newValue = currentMonth;
+        }
+      }
       if (field === "floor" && newValue > 100) newValue = 100;
       if (field === "rooms" && newValue > 10) newValue = 10;
       if(field === "square" && newValue > 500) newValue = 500;
@@ -140,6 +155,11 @@ const Account = () => {
   
       if (field === "prediction_month" && newValue < 1) newValue = 1;
       if (field === "prediction_year" && newValue < 1900) newValue = 1900;
+      if (field === "prediction_year" && newValue === currentYear) {
+        if (prevForm.prediction_month < currentMonth) {
+          newValue = currentMonth;
+        }
+      }
       if (field === "floor" && newValue < 0) newValue = 0;
       if (field === "rooms" && newValue < 1) newValue = 1;
       if(field === "square" && newValue < 1) newValue = 1;
@@ -158,7 +178,7 @@ const Account = () => {
 
   const fetchDistricts = (city) => {
   
-    axios.get('http://localhost:8000/valuation/addresses/'+city+'/')
+    axiosInstance.get('http://localhost:8000/valuation/addresses/'+city+'/')
       .then(response => {      
         setDistricts(response.data.addresses);
         

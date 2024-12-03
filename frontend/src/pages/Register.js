@@ -1,7 +1,6 @@
 import { AuthData } from '../auth/AuthWrapper';
 import React from 'react';
 import Img from '../assets/eee.jpg';
-import axios from 'axios';
 
 const Register = () => {
 

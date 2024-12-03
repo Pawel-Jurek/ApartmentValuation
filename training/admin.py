@@ -12,7 +12,7 @@ from django.urls import path
 @admin.register(ValuationModel)
 class ValuationModelAdmin(admin.ModelAdmin):
     form = ValuationModelForm
-    fields = ['model_file_path', 'correlation_file_path', 'scaler_file_path', 'columns_file_path']
+    fields = ['model_file_name', 'correlation_file_name', 'scaler_file_name', 'columns_file_name']
     list_display = ['data_period', 'status', 'created_at', 'updated_at']
     actions = ['train_models']
     readonly_fields  = ['data_period', 'status', 'created_at', 'updated_at']
@@ -27,10 +27,10 @@ class ValuationModelAdmin(admin.ModelAdmin):
             if created:
                 base_path = 'training_results'
                 date_str = today_date.strftime('%Y-%m-%d')
-                model.model_file.name = f'{base_path}/ai_models/model{date_str}.keras'
-                model.correlation_file.name = f'{base_path}/correlations/correlation{date_str}.json'
-                model.scaler_file.name = f'{base_path}/scalers/scaler{date_str}.pkl'
-                model.columns_file.name = f'{base_path}/columns/columns{date_str}.json'
+                model.model_file_name = f'model{date_str}.keras'
+                model.correlation_file_name = f'correlation{date_str}.json'
+                model.scaler_file_name = f'scaler{date_str}.pkl'
+                model.columns_file_name = f'columns{date_str}.json'
                 model.save()
 
                 msg = f"Your model has been created for period {today_date}."
