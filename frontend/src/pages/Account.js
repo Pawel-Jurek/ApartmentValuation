@@ -10,6 +10,8 @@ const Account = () => {
   const {user} = AuthData();
   const [errorMessage, setErrorMessage] = useState("");
   const [districts, setDistricts] = useState([]);
+  const currentYear = new Date().getFullYear();
+  const currentMonth = new Date().getMonth() +1; 
   const [form, setForm] = useState({
     city: '',
     district: '',
@@ -17,8 +19,8 @@ const Account = () => {
     rooms:3,
     floor: 2,
     year: 1999,
-    prediction_year: 2024,
-    prediction_month: 11,
+    prediction_year: currentYear,
+    prediction_month: currentMonth,
   });
 
   const [history, setHistory] = useState([]);
@@ -103,8 +105,8 @@ const Account = () => {
           floor: floor,
           rooms: rooms,
           year: year,
-          prediction_year: prediction_year,
-          prediction_month: prediction_month,
+          prediction_month: parseInt(form.prediction_month, 10),
+          prediction_year: parseInt(form.prediction_year, 10),
         },
         {
           headers: {
@@ -132,6 +134,8 @@ const Account = () => {
   const handleIncrement = (field) => {
     setForm((prevForm) => {
       let newValue = prevForm[field] + 1;
+      const currentYear = new Date().getFullYear();
+      const currentMonth = new Date().getMonth() +1; 
   
       if (field === "prediction_month" && newValue > 12) newValue = 12;
       if (field === "prediction_year" && newValue > currentYear + 1000) newValue = currentYear + 1000;
@@ -143,7 +147,7 @@ const Account = () => {
       if (field === "floor" && newValue > 100) newValue = 100;
       if (field === "rooms" && newValue > 10) newValue = 10;
       if(field === "square" && newValue > 500) newValue = 500;
-      if(field === "year" && newValue > 2024) newValue = 2024;
+      if(field === "year" && newValue > 2024) newValue = currentYear;
   
       return { ...prevForm, [field]: newValue };
     });
@@ -152,6 +156,8 @@ const Account = () => {
   const handleDecrement = (field) => {
     setForm((prevForm) => {
       let newValue = prevForm[field] - 1;
+      const currentYear = new Date().getFullYear();
+      const currentMonth = new Date().getMonth() +1; 
   
       if (field === "prediction_month" && newValue < 1) newValue = 1;
       if (field === "prediction_year" && newValue < 1900) newValue = 1900;
@@ -190,6 +196,8 @@ const Account = () => {
   };
 
 
+
+
   return (
 
     <div className='flex'>
@@ -214,7 +222,7 @@ const Account = () => {
             className="form-radio text-blue-500"
             
           />
-          <span>Warsaw</span>
+          <span>Warszawa</span>
         </label>
         <label className="flex items-center space-x-2">
           <input
@@ -225,7 +233,7 @@ const Account = () => {
             onChange={handleCityChange}
             className="form-radio text-blue-500"
           />
-          <span>Cracow</span>
+          <span>Kraków</span>
         </label>
         <label className="flex items-center space-x-2">
           <input
@@ -236,7 +244,7 @@ const Account = () => {
             onChange={handleCityChange}
             className="form-radio text-blue-500"
           />
-          <span>Poznan</span>
+          <span>Poznań</span>
         </label>
       </div>
     </div>
@@ -249,7 +257,7 @@ const Account = () => {
         className="bg-gray-200 pt-1"
       >
         <option disabled value="">
-          Choose neighbourhood
+          Choose dictrict
         </option>
         {districts.map((district, index) => (
           <option key={index} value={district}>
@@ -393,7 +401,10 @@ const Account = () => {
                     <div className="flex items-center">
                       <div>
                         <h2 className="font-semibold text-2xl leading-8 text-black mb-3">
-                          {record.city + ', ' + record.district}
+                          {record.city.charAt(0).toUpperCase() + record.city.slice(1).toLowerCase() + ', ' + 
+                          record.district.split(' ')
+                            .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+                            .join(' ')}
                         </h2>
                         <div className='flex items-center'>
                           <p className="font-medium text-base leading-7 text-black pr-4 mr-4 border-r border-gray-200">
