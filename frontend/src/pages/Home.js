@@ -48,7 +48,7 @@ const Home = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/10 pointer-events-none"></div>
           
           <div ref={top} className="w-full min-h-screen flex flex-col justify-center items-center p-32">
-            <h1 className="mt-32 text-4xl pb-4 font-bold text-white tracking-widest">apartment valuation</h1>
+            <h1 className="mt-32 text-4xl pb-4 font-bold text-white tracking-widest">Apartment valuation</h1>
             
             {user.isAuthenticated ? (
               <>
@@ -81,39 +81,47 @@ const Home = () => {
           <div ref={howItWorks} className="w-full min-h-screen bg-white flex justify-center items-center">
             <section className="py-10 bg-white sm:py-16 lg:py-24">
               <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div className="max-w-2xl mx-auto text-center">
-                  <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">How does it work?</h2>
-                  <p className="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.
-                  </p>
-                </div>
+              <div className="max-w-2xl mx-auto text-center">
+              <h2
+                className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl"
+                style={{
+                  color: '#444444',
+                  background: '#FFFFFF',
+                  textShadow: '1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC'
+                }}
+              >
+                How does it work?
+              </h2>
+            </div>
+
+
                 <div className="mt-12 lg:mt-20">
                   <div className="grid grid-cols-1 text-center gap-y-12 md:grid-cols-3 gap-x-12">
                     <div>
                       <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                         <span className="text-xl font-semibold text-gray-700">1</span>
                       </div>
-                      <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Create a free account</h3>
+                      <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Create an Account</h3>
                       <p className="mt-4 text-base text-gray-600">
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Sign up by filling out a simple form with your details.
                       </p>
                     </div>
                     <div>
                       <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                         <span className="text-xl font-semibold text-gray-700">2</span>
                       </div>
-                      <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Build your website</h3>
+                      <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Set Parameters</h3>
                       <p className="mt-4 text-base text-gray-600">
-                        Velit officia consequat duis enim velit mollit.
+                        Define the necessary parameters to get an accurate property evaluation.
                       </p>
                     </div>
                     <div>
                       <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                         <span className="text-xl font-semibold text-gray-700">3</span>
                       </div>
-                      <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Release & Launch</h3>
+                      <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Estimate the Property</h3>
                       <p className="mt-4 text-base text-gray-600">
-                        Release your website and make it live.
+                        Estimate the property value both for the current time and future projections.
                       </p>
                     </div>
                   </div>
@@ -126,8 +134,16 @@ const Home = () => {
               <section class="bg-white ">
                 <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div class="text-center">
-                    <h2 className="text-3xl mb-8 font-bold leading-tight text-black sm:text-4xl lg:text-5xl">About</h2>
-                        <h4 class="text-xl font-medium text-gray-900">Our application in numbers</h4>
+                    <h2
+                      className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl"
+                      style={{
+                        color: '#444444',
+                        background: '#FFFFFF',
+                        textShadow: '1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC'
+                      }}
+                    >About
+                    </h2>
+                        <h4 class="text-xl font-medium text-gray-900">My application in numbers</h4>
                     </div>
 
                     <div class="grid grid-cols-1 gap-6 px-6 mt-8 sm:px-0 lg:mt-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
@@ -167,7 +183,7 @@ const Home = () => {
                                     </svg>
                                     <div class="ml-4">
                                         <h4 class="text-4xl font-bold text-gray-900">3 Cities</h4>
-                                        <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">Warsaw, Cracow and Poznan</p>
+                                        <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">Warszawa, Kraków and Poznań</p>
                                     </div>
                                 </div>
                             </div>

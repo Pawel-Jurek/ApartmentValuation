@@ -49,7 +49,7 @@ const Header = ({ scrollToSection, refs }) => {
 
                 <div class="lg:absolute lg:-translate-x-1/2 lg:inset-y-5 lg:left-1/2">
                     <div class="flex-shrink-0">
-                        <h1 className="text-4xl pb-4 font-bold text-gray-800 tracking-widest lg:text-2xl">apartament valuation</h1>
+                        <h1 className="text-4xl pb-4 font-bold text-gray-800 tracking-widest lg:text-2xl">Apartament Valuation</h1>
                     </div>
                 </div>
             
