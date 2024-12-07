@@ -4,12 +4,15 @@ import { useState } from 'react';
 import axiosInstance from '../auth/axiosSetup';
 import { AuthData } from '../auth/AuthWrapper';
 import { toast } from "react-toastify";
+import { Link } from 'react-router-dom';
+import Avatar from '../assets/avatar.jpg';
 
 const Account = () => {
 
   const {user} = AuthData();
   const [errorMessage, setErrorMessage] = useState("");
   const [districts, setDistricts] = useState([]);
+  const { logout } = AuthData();
   const currentYear = new Date().getFullYear();
   const currentMonth = new Date().getMonth() +1; 
   const [form, setForm] = useState({
@@ -200,15 +203,73 @@ const Account = () => {
 
   return (
 
+    <div>
+      <nav className="w-full bg-gray-200 shadow p-4">
+        <div className="container mx-auto flex items-center justify-between">
+          <a href="/" className="inline-flex items-center">
+            <svg
+              className="w-[42px] h-[42px] text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m4 12 8-8 8 8M6 10.5V19a1 1 0 0 0 1 1h3v-3a1 1 0 1 1 1-1h2a1 1 0 0 1 1 1v3h3a1 1 0 0 0 1-1v-8.5"
+              />
+            </svg>
+            <span className="ml-2 text-black text-lg">Home</span>
+          </a>
+
+          <div className="inline-flex items-center space-x-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-10 h-10 bi bi-coin text-gray-800"
+            viewBox="0 0 18 18"
+            fill="currentColor"
+          >
+            <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518z" />
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+            <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11m0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12" />
+          </svg>
+          <span className="text-gray-800 text-lg font-medium">{user.tokensLeft}</span>
+        </div>
+        <div className="flex lg:items-center pr-32">
+        {user.isAuthenticated ? (
+                <>
+
+                  <Link to="/account"><img src={Avatar} alt="avatar" className="w-10 h-10 rounded-full mr-8 border" />
+                    <p className="text-black">{user.username}</p>
+                  </Link>
+                  <button onClick={logout} class="relative h-12 w-24 rounded-full overflow-hidden border border-black text-black shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-black before:duration-300 before:ease-out hover:text-white hover:shadow-indigo-600 hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
+                    <span class="relative z-10">Log out</span>
+                  </button>
+                </>
+              ) : (
+                <button class="relative h-12 w-24 rounded-full overflow-hidden border border-black text-black shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-black before:duration-300 before:ease-out hover:text-white hover:shadow-indigo-600 hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
+                  <Link to="/login"><span class="relative z-10">Sign in</span></Link>
+                </button>
+              )}
+        </div>
+        </div>
+      </nav>
+    
     <div className='flex'>
-      <a href='/' className='p-4'>
-        <svg class="w-[42px] h-[42px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 12 8-8 8 8M6 10.5V19a1 1 0 0 0 1 1h3v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h3a1 1 0 0 0 1-1v-8.5"/>
-        </svg>
-      </a>
-    <div className='w-1/3 min-h-screen pt-32'>
+      
+    <div className='w-1/3 min-h-screen pt-32 bg-gray-100'>
     <h1 className="text-3xl font-semibold text-center mb-4">Predict the price of your apartment</h1>
-    <form className="p-4 max-w-md mx-auto space-y-8 py-8 bg-gray-200 rounded-lg">
+    <hr
+        style={{
+          height: "10px",
+          border: "0",
+          boxShadow: "0 10px 10px -10px #8c8b8b inset",
+        }}
+      />
+    <form className="p-4 max-w-md mx-auto space-y-8 py-8 bg-gray-100">
     <div>
       <label className="block text-md font-medium mb-1">City</label>
       <div className="flex space-x-8">
@@ -254,7 +315,7 @@ const Account = () => {
         name="district"
         value={form.district || ""}
         onChange={handleChange}
-        className="bg-gray-200 pt-1"
+        className="p-2 pt-1 bg-gray-100 border border-solid border-gray-400"
       >
         <option disabled value="">
           Choose dictrict
@@ -470,6 +531,7 @@ const Account = () => {
           </div>
         );
       })}
+    </div>
     </div>
     </div>
   );
