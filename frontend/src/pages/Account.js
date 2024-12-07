@@ -4,12 +4,15 @@ import { useState } from 'react';
 import axiosInstance from '../auth/axiosSetup';
 import { AuthData } from '../auth/AuthWrapper';
 import { toast } from "react-toastify";
+import { Link } from 'react-router-dom';
+import Avatar from '../assets/avatar.jpg';
 
 const Account = () => {
 
   const {user} = AuthData();
   const [errorMessage, setErrorMessage] = useState("");
   const [districts, setDistricts] = useState([]);
+  const { logout } = AuthData();
   const currentYear = new Date().getFullYear();
   const currentMonth = new Date().getMonth() +1; 
   const [form, setForm] = useState({
@@ -235,7 +238,23 @@ const Account = () => {
           </svg>
           <span className="text-gray-800 text-lg font-medium">{user.tokensLeft}</span>
         </div>
+        <div className="flex lg:items-center pr-32">
+        {user.isAuthenticated ? (
+                <>
 
+                  <Link to="/account"><img src={Avatar} alt="avatar" className="w-10 h-10 rounded-full mr-8 border" />
+                    <p className="text-black">{user.username}</p>
+                  </Link>
+                  <button onClick={logout} class="relative h-12 w-24 rounded-full overflow-hidden border border-black text-black shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-black before:duration-300 before:ease-out hover:text-white hover:shadow-indigo-600 hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
+                    <span class="relative z-10">Log out</span>
+                  </button>
+                </>
+              ) : (
+                <button class="relative h-12 w-24 rounded-full overflow-hidden border border-black text-black shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-black before:duration-300 before:ease-out hover:text-white hover:shadow-indigo-600 hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
+                  <Link to="/login"><span class="relative z-10">Sign in</span></Link>
+                </button>
+              )}
+        </div>
         </div>
       </nav>
     
