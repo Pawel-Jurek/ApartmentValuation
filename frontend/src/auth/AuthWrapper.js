@@ -25,18 +25,28 @@ export const AuthWrapper = () => {
         username: username1,
         password: password1,
       });
-
-      localStorage.setItem('accessToken', data.access);
-      localStorage.setItem('refreshToken', data.refresh);
-      localStorage.setItem('userID', data.user_id);
-
+      console.log(data);
+      localStorage.setItem("accessToken", data.access);
+      localStorage.setItem("refreshToken", data.refresh);
+      localStorage.setItem("userID", data.user_id);
+  
       await getUser();
       navigate("/account");
-      toast.success('Logged in successfully', { position: 'top-center' });
+      toast.success("Logged in successfully", { position: "top-center" });
     } catch (error) {
-      console.log(error);
-      if (error.response.status === 401) {
-        toast.error('Invalid username or password', { position: 'top-center' });
+      console.error(error);
+      if (error.response) {
+        if (error.response.status === 401) {
+          toast.error("Invalid username or password", { position: "top-center" });
+        } else {
+          toast.error(`Error: ${error.response.statusText}`, { position: "top-center" });
+        }
+      } else if (error.request) {
+          localStorage.removeItem('accessToken');
+          localStorage.removeItem('refreshToken');
+          toast.error("Server not responding. Please try again later.", { position: "top-center" });
+      } else {
+        toast.error("An unexpected error occurred. Please try again.", { position: "top-center" });
       }
     }
   };
@@ -71,23 +81,34 @@ export const AuthWrapper = () => {
       });
     } catch (error) {
       console.error("Error fetching user data:", error);
+      localStorage.removeItem('accessToken');
+      localStorage.removeItem('refreshToken');
       toast.error("Session expired. Please log in again.", { position: "top-center" });
+
       navigate("/login");
     }
   };
 
-  const register1 = async (username1, email1, password1, password22) => {
+  const register = async (username, email, password, password2) => {
     try {
       const { data } = await axiosInstance.post("http://localhost:8000/users/register/", {
-        username: username1,
-        password: password1,
-        password2: password22,
-        email: email1,      
+        username: username,
+        password: password,
+        password2: password2,
+        email: email,      
       });
       console.log(data);
       navigate("/login");
     } catch (error) {
-      console.log(error);
+      if (error.response) {
+        const errorData = error.response.data;
+        const errorMessages = Object.values(errorData).flat();
+        errorMessages.forEach(message =>toast.error(message, { position: "top-center" }));
+      } else if (error.request) {
+        console.error('Brak odpowiedzi:', error.request);
+      } else {
+        console.error('Błąd przy przygotowywaniu żądania:', error.message);
+      }
     }
   };
 
@@ -129,7 +150,7 @@ export const AuthWrapper = () => {
   }, [user.isAuthenticated]);
 
   return (
-    <AuthContext.Provider value={{ user, login, logout, register1, getUser }}>
+    <AuthContext.Provider value={{ user, login, logout, register, getUser }}>
       <>
         <RenderRoutes />
       </>

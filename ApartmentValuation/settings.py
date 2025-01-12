@@ -116,7 +116,7 @@ if env_file_exists:
             "NAME": "houses-db",
             "USER": config("DB_USER_ADMIN"),
             "PASSWORD": config("DB_PASSWORD_ADMIN"),
-            "HOST": "apartament-valuation.postgres.database.azure.com",
+            "HOST": "apartment-valuation.postgres.database.azure.com",
             "PORT": "5432",
             "OPTIONS": {"sslmode": "require"},
         }
@@ -128,7 +128,7 @@ else:
             "NAME": "houses-db",
             "USER": 'basic_user',
             "PASSWORD": 'basic_user',
-            "HOST": "apartament-valuation.postgres.database.azure.com",
+            "HOST": "apartment-valuation.postgres.database.azure.com",
             "PORT": "5432",
             "OPTIONS": {"sslmode": "require"},
         }

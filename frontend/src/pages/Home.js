@@ -48,7 +48,7 @@ const Home = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/10 pointer-events-none"></div>
           
           <div ref={top} className="w-full min-h-screen flex flex-col justify-center items-center p-32">
-            <h1 className="mt-32 text-4xl pb-4 font-bold text-white tracking-widest">Apartment valuation</h1>
+            <h1 className="mt-32 text-4xl pb-4 font-bold text-white tracking-widest">Apartment Valuation</h1>
             
             {user.isAuthenticated ? (
               <>

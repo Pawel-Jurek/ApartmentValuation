@@ -28,7 +28,7 @@ class ValuationModelAdmin(admin.ModelAdmin):
                 base_path = 'training_results'
                 date_str = today_date.strftime('%Y-%m-%d')
                 model.model_file_name = f'model{date_str}.keras'
-                model.correlation_file_name = f'correlation{date_str}.json'
+                model.correlation_file_name = f'correlation{date_str}.pkl'
                 model.scaler_file_name = f'scaler{date_str}.pkl'
                 model.columns_file_name = f'columns{date_str}.json'
                 model.save()
