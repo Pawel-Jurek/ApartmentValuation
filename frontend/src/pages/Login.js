@@ -17,7 +17,7 @@ const Login = () => {
     const handleChange = (e) => {
         setFormData({
           ...formData,
-          [e.target.name]: e.target.value,  // Aktualizacja na podstawie atrybutu 'name'
+          [e.target.name]: e.target.value,
         });
       };
 

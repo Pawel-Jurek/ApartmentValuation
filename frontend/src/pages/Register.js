@@ -4,7 +4,7 @@ import Img from '../assets/eee.jpg';
 
 const Register = () => {
 
-  const { register1 } = AuthData();
+  const { register } = AuthData();
   const [formData, setFormData] = React.useState({
     username: '',
     email: '',
@@ -22,7 +22,7 @@ const Register = () => {
   const doRegister = async (e) => { 
     e.preventDefault();
     try {            
-        await register1(formData.username, formData.email, formData.password, formData.password2);
+        await register(formData.username, formData.email, formData.password, formData.password2);
     } catch (error) {   
            console.error('Error registering:', error.message);
     }         

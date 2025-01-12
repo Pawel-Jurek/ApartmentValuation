@@ -1,0 +1,435 @@
+https://www.otodom.pl/pl/oferta/wygodne-mieszkanie-60-23-m2-ogrodek-garaz-ID4tEk6
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/dwupokojowe-mieszkanie-poznan-satare-miasto-ID4t4JD
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/2-pok-na-plewiskach-do-zamieszkania-brak-prowizji-ID4tT1Z
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/plewiska-2-pokoje-w-atrakcyjnej-lokalizacji-ID4tUyf
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-z-duzym-ogrodkiem-blisko-lasu-ID4tATf
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/udzial-1-2-w-mieszkaniu-o-pow-61-40-m2-czapury-ID4tWSB
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/mieszkanie-4-pokojowe-63-14-m2-kanaliza-balkon-ID4sYbl
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/przytulne-mieszkanie-z-dwoma-sypialniami-ID4oAZc
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/nowoczesne-4-pok-82-m2-taras-i-strych-czapury-ID4tvYr
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-60m2-balkon-bez-prowizji-ID4mLdq
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-60m2-balkon-bez-prowizji-ID.4mLdq
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowy-lokal-inwestycyjny-204m2-ID4tkzD
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/1-pokojowy-apartament-inwestycyjny-28m2-balkon-ID4lSqb
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/jezyce-szamarzewskiego-gotowe-2-pokojowe-ID4u6em
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-67m2-taras-bez-prowizji-ID4lCEv
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-51m2-balkon-bez-prowizji-ID4s7Hb
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-124m2-2-loggie-ID4hMLl
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-71m2-taras-bezposrednio-ID4gJ48
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-71m2-loggia-bez-prowizji-ID4oFtf
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-73m2-taras-bezposrednio-ID4mx1X
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-42m2-balkon-ID4rrIu
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/1-pokojowe-mieszkanie-38m2-balkon-ID4mx14
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-55m2-balkon-bez-prowizji-ID4qUVJ
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-67m2-2-balkony-ID4t8S5
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-49m2-loggia-ID4tzEq
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-41m2-balkon-bez-prowizji-ID4njtR
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/osiedle-przy-mokrej-mieszkanie-3-pok-6-2-m13b-ID4p2vK
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/penthouse-w-odrestaurowanej-kamienicy-taras-77m2-ID4sHtj
+Error parsing apartment: could not convert string to float: '1150000€'
+------------
+https://www.otodom.pl/pl/oferta/penthouse-w-poblizu-rynku-glownego-ID3YkcU
+Error parsing apartment: could not convert string to float: '1150000€'
+------------
+https://www.otodom.pl/pl/oferta/penthouse-tarasem-na-dachu-w-kamienicy-z-winda-ID4oUCI
+Error parsing apartment: could not convert string to float: '1150000€'
+------------
+https://www.otodom.pl/pl/oferta/penthouse-232m-w-zabytkowej-kamienicy-stare-miasto-ID4mMGo
+Error parsing apartment: could not convert string to float: '1149999€'
+------------
+https://www.otodom.pl/pl/oferta/5-pokoi-taras-77m2-komorka-centrum-mariack-ID4jELw
+Error parsing apartment: could not convert string to float: '1149999€'
+------------
+https://www.otodom.pl/pl/oferta/wygodne-mieszkanie-60-23-m2-ogrodek-garaz-ID4tEk6
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/dwupokojowe-mieszkanie-poznan-satare-miasto-ID4t4JD
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/2-pok-na-plewiskach-do-zamieszkania-brak-prowizji-ID4tT1Z
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/plewiska-2-pokoje-w-atrakcyjnej-lokalizacji-ID4tUyf
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-z-duzym-ogrodkiem-blisko-lasu-ID4tATf
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/udzial-1-2-w-mieszkaniu-o-pow-61-40-m2-czapury-ID4tWSB
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/mieszkanie-4-pokojowe-63-14-m2-kanaliza-balkon-ID4sYbl
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/przytulne-mieszkanie-z-dwoma-sypialniami-ID4oAZc
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/nowoczesne-4-pok-82-m2-taras-i-strych-czapury-ID4tvYr
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-60m2-balkon-bez-prowizji-ID4mLdq
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-60m2-balkon-bez-prowizji-ID.4mLdq
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowy-lokal-inwestycyjny-204m2-ID4tkzD
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/1-pokojowy-apartament-inwestycyjny-28m2-balkon-ID4lSqb
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/jezyce-szamarzewskiego-gotowe-2-pokojowe-ID4u6em
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-67m2-taras-bez-prowizji-ID4lCEv
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-51m2-balkon-bez-prowizji-ID4s7Hb
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-124m2-2-loggie-ID4hMLl
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-71m2-taras-bezposrednio-ID4gJ48
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-71m2-loggia-bez-prowizji-ID4oFtf
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-65m2-balkon-ID4mx2e
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-34m2-balkon-bez-prowizji-ID4oXwT
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-42m2-balkon-ID4rrIu
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/1-pokojowe-mieszkanie-38m2-balkon-ID4mx14
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-55m2-balkon-bez-prowizji-ID4qUVJ
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-67m2-2-balkony-ID4t8S5
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-49m2-loggia-ID4tzEq
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-41m2-balkon-bez-prowizji-ID4njtR
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/penthouse-w-odrestaurowanej-kamienicy-taras-77m2-ID4sHtj
+Error parsing apartment: could not convert string to float: '1150000€'
+------------
+https://www.otodom.pl/pl/oferta/penthouse-w-poblizu-rynku-glownego-ID3YkcU
+Error parsing apartment: could not convert string to float: '1150000€'
+------------
+https://www.otodom.pl/pl/oferta/penthouse-tarasem-na-dachu-w-kamienicy-z-winda-ID4oUCI
+Error parsing apartment: could not convert string to float: '1150000€'
+------------
+https://www.otodom.pl/pl/oferta/penthouse-232m-w-zabytkowej-kamienicy-stare-miasto-ID4mMGo
+Error parsing apartment: could not convert string to float: '1149999€'
+------------
+https://www.otodom.pl/pl/oferta/5-pokoi-taras-77m2-komorka-centrum-mariack-ID4jELw
+Error parsing apartment: could not convert string to float: '1149999€'
+------------
+https://www.otodom.pl/pl/oferta/kameralne-i-ciche-z-tarasem-wraz-pieknym-widokiem-ID4t1x8
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/mieszkanie-swietna-lokalizacja-krakow-srodmiescie-ID4ql1i
+Error parsing apartment: could not convert string to float: '260000€'
+------------
+https://www.otodom.pl/pl/oferta/jasne-przestronne-mieszkanie-ID4tiWu
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/3-pok-70-65-m2-zielonki-wiarusa-os-magnolie-ID4soKE
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/zrelaksuj-sie-w-pieknym-zielonym-ogrodzie-ID4tt7x
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-ID4sKQS
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/mieszkanie-3-pokojowe-w-zielonkach-ID4tO76
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/jasne-swietnie-wyposazone-2-pok-duzy-parking-ID4rm0r
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/zielonki-3-pokoje-aneks-ogrodek-49-91m2-ID4rNYc
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/mieszkanie-ii-poziomowe-gotowe-do-zamieszkania-ID4tUqQ
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/na-sprzedaz-mieszkanie-3-pokojowe-skawina-ID4tJVx
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/apartament-5-pokoi-taras-100m2-ID4tZPK
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/mieszkanie-na-sprzedaz-ID4u6qA
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/luksusowy-apartament-z-duzym-tarasem-ul-graniczna-ID4sfLJ
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/4-pokoje-garaz-klimatyzacja-ID4rD4W
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-z-ogrodkiem-na-sprzedaz-ID4rVNc
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/apartament-5-pokoi-taras-100m2-ID.4tZPK
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-49m2-ogrodek-bezposrednio-ID4qGBO
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/komfortowe-mieszkanie-dla-twojej-rodziny-ID4thZD
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/ul-wierzbowa-modlnica-4-pokoi-sprzedaz-ID4tQdc
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/nowoczesny-3-pokojowy-apartament-zielonki-ID4tT0d
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/pieknie-wykonczone-mieszkanie-do-wejscia-okazja-ID4tGLZ
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/zielonki-atrakcyjne-mieszkanie-zapraszam-ID4ttUE
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-38m2-balkon-bez-prowizji-ID4rrMv
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-54m2-ogrodek-ID4rrMi
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-42m2-balkon-bezposrednio-ID4rrMZ
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-67m2-balkon-ID4dncO
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/lubostron-13-mieszkanie-2-pok-m-58-ID4qi8w
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-42m2-balkon-bezposrednio-ID.4rrMZ
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-59m2-balkon-ID4oyTv
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-42m2-balkon-bezposrednio-ID4m9uO
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-67m2-taras-bez-posrednikow-ID4rWJy
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-69m2-loggia-ID4hgId
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-78m2-2-balkony-ID4tWZL
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-89m2-balkon-bez-prowizji-ID4t2Pb
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-56m2-2-loggie-bez-prowizji-ID4tiXi
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-76m2-ogrodek-ID4sWqs
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-60m2-loggia-bezposrednio-ID4qUld
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/1-pokojowe-mieszkanie-30m2-bez-posrednikow-ID4msM5
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-47m2-loggia-bez-prowizji-ID4t1t3
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-60m2-balkon-bezposrednio-ID4q4E9
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-46m2-balkon-bezposrednio-ID4nOAu
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-81m2-loggia-bezposrednio-ID4r45G
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/mieszkanie-3-pokojowe-z-osobna-kuchnia-ID4smr7
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/mieszkanie-na-sprzedaz-61-m-dwa-pokoje-mysiadlo-ID4tANh
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-komorka-garaz-ID4qdaF
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/komfortowe-ladne-idealne-dla-pary-albo-rodziny-ID4tOoF
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/bemowo-61m2-3pokoje-wysoki-standard-ID4tQ1Q
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/niska-zabudowadwa-tarasyosiedle-premium-ID4u5Vr
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/idealne-dla-rodziny-ID4tMfg
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/nowoczesne-3-pokojowe-mieszkanie-z-ladowarka-ev-ID4tjEi
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/zarezerwowane-sulejowek-37-59-m-2-pok-winda-ID4tW3k
+Invalid data, missing district
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-64m2-bezposrednio-ID4qr4z
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-64m2-bezposrednio-ID4qr4z
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-60m2-2-loggie-bezposrednio-ID4f9LV
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-64m2-2-balkony-ID4dGFK
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-58m2-taras-bez-posrednikow-ID4oOVx
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-80m2-2-balkony-ID4hh5U
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-72m2-3-balkony-ID4iI1t
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-76m2-balkon-ID4pVhA
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-79m2-2-loggie-bezposrednio-ID4roSV
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pok-mieszkanie-40-m2-gotowe-do-odbioru-balkon-ID4c7bn
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-54m2-balkon-bez-prowizji-ID4nFxS
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-59m2-balkon-bezposrednio-ID4oyfk
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-55m2-ogrodek-bezposrednio-ID4pap6
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-50m2-ogrodek-ID4r1Fh
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-57m2-balkon-bezposrednio-ID4taRz
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/1-pokojowe-mieszkanie-32m2-balkon-bez-prowizji-ID4jwZ7
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-56m2-balkon-bez-prowizji-ID4r1Gi
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-45m2-balkon-bezposrednio-ID4rvE2
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-41m2-balkon-bez-prowizji-ID4hzyE
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-60m2-balkon-bezposrednio-ID4lhvx
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-39m2-ogrodek-bezposrednio-ID4mvlG
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-87m2-balkon-bez-prowizji-ID4ot9C
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-68m2-2-balkony-ID4nzAn
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-66m2-balkon-bez-prowizji-ID4odvH
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-61m2-balkon-bezposrednio-ID4n2pD
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/1-pokojowe-mieszkanie-32m2-bezposrednio-ID4m97u
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-64m2-balkon-ID4po8m
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-68m2-ogrodek-bezposrednio-ID4pbr7
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
+https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-44m2-taras-bez-prowizji-ID4psCw
+Error parsing apartment: could not convert string to float: 'Zapytajocenę'
+------------
