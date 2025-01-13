@@ -201,7 +201,7 @@ const Home = () => {
                                         />
                                     </svg>
                                     <div class="ml-4">
-                                        <h4 class="text-4xl font-bold text-gray-900">~95%</h4>
+                                        <h4 class="text-4xl font-bold text-gray-900">~92%</h4>
                                         <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">Model effectiveness</p>
                                     </div>
                                 </div>
